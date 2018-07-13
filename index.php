@@ -53,6 +53,9 @@
               </div>
             </div>
           </div>
+          <div class="see-all-row">
+            <button class="see-all">See all</button>
+          </div>
         </div>
         <div class="section">
           <h2>RELEASES</h2>
@@ -81,6 +84,9 @@
                 <h4 class="date">12 nov 19</h4>
               </div>
             </div>
+          </div>
+          <div class="see-all-row">
+            <button class="see-all">See all</button>
           </div>
         </div>
       </div>

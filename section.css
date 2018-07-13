@@ -16,6 +16,7 @@
 .section-infos {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .section-info {
@@ -59,4 +60,18 @@
 
 .section-details h4.date {
   font-size: 12px;
+}
+
+.see-all-row {
+  text-align: center;
+}
+
+.see-all {
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: white solid 1px;
+  border-radius: 8px;
+  width: 160px;
+  height: 40px;
 }
