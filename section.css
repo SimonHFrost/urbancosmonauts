@@ -1,3 +1,12 @@
+.section {
+  color: gray;
+  background-color: black;
+  margin-bottom: 32px;
+}
+
 .section h2 {
+  padding-top: 40px;
   text-align: center;
+  font-size: 60px;
+  letter-spacing: 8px;
 }

@@ -11,6 +11,7 @@ Text Domain: urbancosmonauts
 */
 
 body {
+  font-family: 'Scada',sans-serif;
   background-color: gray;
 }
 
@@ -19,13 +20,10 @@ body {
   width: 900px;
 }
 
-.content {
-  background-color: red;
-}
-
 .nav-image,
 .nav-content {
   display: inline-block;
+  vertical-align: top;
 }
 
 .nav-image {
@@ -36,17 +34,23 @@ h1 {
   color: white;
 }
 
+header {
+  margin-top: 16px;
+}
+
 nav {
   display: inline-block;
 }
 
 nav ol {
   padding: 0;
+  margin: 0;
   list-style-type: none;
   margin-left: 0;
 }
 
 nav li {
+  color: white;
   display: inline-block;
-  width: 100px;
+  margin-right: 40px;
 }
