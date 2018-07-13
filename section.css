@@ -7,11 +7,18 @@
 
 .section h2 {
   text-align: center;
-  font-size: 60px;
-  letter-spacing: 8px;
+  font-size: 80px;
+  letter-spacing: 10px;
+  margin-bottom: -12px;
+}
+
+.section-infos {
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-info {
+  display: inline-block;
   position: relative;
   background-color: white;
   width: 200px;
