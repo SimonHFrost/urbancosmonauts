@@ -4,6 +4,7 @@
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css"/>
     <link rel="stylesheet" id="google-font-scada-css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" type="text/css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/index.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/header.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/section.css" rel="stylesheet">
