@@ -11,7 +11,7 @@ Text Domain: urbancosmonauts
 */
 
 body {
-  background-color: blue;
+  background-color: gray;
 }
 
 .container {
@@ -20,9 +20,24 @@ body {
   width: 900px;
 }
 
+.nav-image,
+.nav-content {
+  display: inline-block;
+}
+
+.nav-image {
+  margin: 16px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: white;
+}
+
 nav {
+  display: inline-block;
   background-color: purple;
-  padding: 16px 0;
+  padding: 8px 0;
 }
 
 nav li {
