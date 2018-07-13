@@ -1,0 +1,31 @@
+/*
+Theme Name: Urban Cosmonauts
+Theme URI: https://simonhfrost.com
+Author: Simon Frost
+Author URI: https://simonhfrost.com
+Description: Theme developed specifically for Urban Cosmonauts
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Tags: urban, cosmonauts
+Text Domain: urbancosmonauts
+*/
+
+body {
+  background-color: blue;
+}
+
+.container {
+  background-color: red;
+  margin: auto;
+  width: 900px;
+}
+
+nav {
+  background-color: purple;
+  padding: 16px 0;
+}
+
+nav li {
+  display: inline-block;
+  width: 100px;
+}
