@@ -28,7 +28,7 @@
         <div class="section">
           <h2>RADIO</h2>
           <div class="section-infos">
-            <div class="section-info">
+            <div class="section-info background1">
               <h3>ALI KURU</h3>
               <div class="section-details">
                 <h4 class="number">#40</h4>
@@ -36,7 +36,7 @@
                 <h4 class="date">20 dec 19</h4>
               </div>
             </div>
-            <div class="section-info">
+            <div class="section-info background2">
               <h3>EXZ</h3>
               <div class="section-details">
                 <h4 class="number">#39</h4>
@@ -44,7 +44,7 @@
                 <h4 class="date">2 dec 19</h4>
               </div>
             </div>
-            <div class="section-info">
+            <div class="section-info background3">
               <h3>CALESSI</h3>
               <div class="section-details">
                 <h4 class="number">#38</h4>
@@ -60,7 +60,7 @@
         <div class="section">
           <h2>RELEASES</h2>
           <div class="section-infos">
-            <div class="section-info">
+            <div class="section-info background4">
               <h3>REVERIES</h3>
               <div class="section-details">
                 <h4 class="number">#121</h4>
@@ -68,7 +68,7 @@
                 <h4 class="date">20 dec 19</h4>
               </div>
             </div>
-            <div class="section-info">
+            <div class="section-info background5">
               <h3>ULISES UNA</h3>
               <div class="section-details">
                 <h4 class="number">#120</h4>
@@ -76,7 +76,7 @@
                 <h4 class="date">2 dec 19</h4>
               </div>
             </div>
-            <div class="section-info">
+            <div class="section-info background6">
               <h3>TALES</h3>
               <div class="section-details">
                 <h4 class="number">#119</h4>
