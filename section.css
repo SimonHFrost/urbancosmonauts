@@ -10,3 +10,18 @@
   font-size: 60px;
   letter-spacing: 8px;
 }
+
+.section-info {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.section-info ul {
+  list-style: none;
+}
+
+.section-info ul li:first-child {
+  text-align: right;
+}

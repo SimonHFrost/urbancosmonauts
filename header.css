@@ -20,13 +20,6 @@ nav {
   display: inline-block;
 }
 
-nav ol {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  margin-left: 0;
-}
-
 nav li {
   color: white;
   display: inline-block;

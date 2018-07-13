@@ -15,17 +15,25 @@
         <div class="nav-content">
           <h1>URBAN COSMONAUT RADIO</h1>
           <nav>
-            <ol>
+            <ul>
               <li>Radio</li>
               <li>Releases</li>
               <li>Contact</li>
-            </ol>
+            </ul>
           </nav>
         </div>
       </header>
       <div class="content">
         <div class="section">
           <h2>RADIO</h2>
+          <div class="section-info">
+            <ul>
+              <li>ALI KURU</li>
+              <li>#40</li>
+              <li>Podcast</li>
+              <li>20 dec 29</li>
+            </ul>
+          </div>
         </div>
         <div class="section">
           <h2>RELEASES</h2>

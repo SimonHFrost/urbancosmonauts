@@ -19,3 +19,9 @@ body {
   margin: auto;
   width: 900px;
 }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
