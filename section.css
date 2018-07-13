@@ -2,16 +2,17 @@
   color: gray;
   background-color: black;
   margin-bottom: 32px;
+  padding: 40px;
 }
 
 .section h2 {
-  padding: 40px 0;
   text-align: center;
   font-size: 60px;
   letter-spacing: 8px;
 }
 
 .section-info {
+  position: relative;
   background-color: white;
   width: 200px;
   height: 200px;
@@ -22,6 +23,31 @@
   list-style: none;
 }
 
-.section-info ul li:first-child {
+.section-info h3 {
+  font-size: 32px;
+  margin: 0;
   text-align: right;
+}
+
+.section-info h4 {
+  margin: 0;
+}
+
+.section-details {
+  position: absolute;
+  bottom: 20px;
+}
+
+.section-details h4.number {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.section-details h4.type {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.section-details h4.date {
+  font-size: 12px;
 }

@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css"/>
-    <link rel="stylesheet" id="google-font-scada-css" href="http://fonts.googleapis.com/css?family=Scada&amp;ver=4.9.7" type="text/css" media="all">
+    <link rel="stylesheet" id="google-font-scada-css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" type="text/css" media="all">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/index.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/header.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/section.css" rel="stylesheet">
@@ -27,12 +27,12 @@
         <div class="section">
           <h2>RADIO</h2>
           <div class="section-info">
-            <ul>
-              <li>ALI KURU</li>
-              <li>#40</li>
-              <li>Podcast</li>
-              <li>20 dec 29</li>
-            </ul>
+            <h3>ALI KURU</h3>
+            <div class="section-details">
+              <h4 class="number">#40</h4>
+              <h4 class="type">Podcast</h4>
+              <h4 class="date">20 dec 29</h4>
+            </div>
           </div>
         </div>
         <div class="section">
