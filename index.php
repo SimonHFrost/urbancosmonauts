@@ -55,6 +55,32 @@
         </div>
         <div class="section">
           <h2>RELEASES</h2>
+          <div class="section-infos">
+            <div class="section-info">
+              <h3>REVERIES</h3>
+              <div class="section-details">
+                <h4 class="number">#121</h4>
+                <h4 class="type">Compilation</h4>
+                <h4 class="date">20 dec 19</h4>
+              </div>
+            </div>
+            <div class="section-info">
+              <h3>ULISES UNA</h3>
+              <div class="section-details">
+                <h4 class="number">#120</h4>
+                <h4 class="type">Single</h4>
+                <h4 class="date">2 dec 19</h4>
+              </div>
+            </div>
+            <div class="section-info">
+              <h3>TALES</h3>
+              <div class="section-details">
+                <h4 class="number">#119</h4>
+                <h4 class="type">Compilation</h4>
+                <h4 class="date">12 nov 19</h4>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
