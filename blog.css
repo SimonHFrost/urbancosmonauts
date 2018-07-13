@@ -15,9 +15,12 @@ body {
 }
 
 .container {
-  background-color: red;
   margin: auto;
   width: 900px;
+}
+
+.content {
+  background-color: red;
 }
 
 .nav-image,
@@ -30,14 +33,17 @@ body {
 }
 
 h1 {
-  text-transform: uppercase;
   color: white;
 }
 
 nav {
   display: inline-block;
-  background-color: purple;
-  padding: 8px 0;
+}
+
+nav ol {
+  padding: 0;
+  list-style-type: none;
+  margin-left: 0;
 }
 
 nav li {
