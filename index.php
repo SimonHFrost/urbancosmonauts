@@ -52,7 +52,7 @@
               $my_date = $date_match_array[1];
             ?>
 
-              <div class="section-info background1">
+              <div class="section-info background3">
                 <h3><?php echo $my_artist ?></h3>
                 <div class="section-details">
                   <h4 class="number"><?php echo $my_number ?></h4>
