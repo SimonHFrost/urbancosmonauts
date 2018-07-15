@@ -12,7 +12,9 @@
   <body>
     <div class="container">
       <header>
-        <img class="nav-image" src="http://radio.urbancosmonaut.com/wp-content/uploads/2015/08/logo_nav.png"/>
+        <a href="<?php echo get_bloginfo( 'wpurl' );?>">
+          <img class="nav-image" src="http://radio.urbancosmonaut.com/wp-content/uploads/2015/08/logo_nav.png"/>
+        </a>
         <div class="nav-content">
           <h1>URBAN COSMONAUT RADIO</h1>
           <nav>
