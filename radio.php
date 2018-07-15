@@ -25,6 +25,13 @@ foreach($posts_array as $post)
       <h4 class="number"><?php echo $my_number ?></h4>
       <h4 class="type">Podcast</h4>
       <h4 class="date"><?php echo $my_date ?></h4>
+
+      <?php
+        // $image = $post->featured_image;
+        // $size = 'full'; // (thumbnail, medium, large, full or custom size)
+        //
+      	// echo wp_get_attachment_image( $image, $size );
+      ?>
     </div>
   </div>
 
