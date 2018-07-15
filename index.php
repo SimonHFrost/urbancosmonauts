@@ -27,6 +27,22 @@
         </div>
       </header>
       <div class="content">
+        <?php
+        $args = array(
+        	"posts_per_page"   => 3,
+        	"paged"            => 1,
+        	"category"         => 2
+        );
+
+        $posts_array = get_posts($args);
+
+        foreach($posts_array as $post)
+      	{
+          echo "<h3>" . $post->post_title . "</h3><br>";
+      	  echo "<h3>" . $post->post_date . "</h3><br>";
+      	}
+        ?>
+
         <div class="section">
           <h2>RADIO</h2>
           <div class="section-infos">
