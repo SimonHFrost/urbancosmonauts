@@ -38,8 +38,18 @@
 
         foreach($posts_array as $post)
       	{
-          echo "<h3>" . $post->post_title . "</h3><br>";
-      	  echo "<h3>" . $post->post_date . "</h3><br>";
+          preg_match("/by (.+)/", $post->post_title, $artist_match_array);
+          echo "<h3>" . $artist_match_array[1] . "</h3>";
+
+          preg_match("/UCR (#.+) by/", $post->post_title, $number_match_array);
+          echo "<h3>" . $number_match_array[1] . "</h3>";
+
+          echo "<h3>Podcast</h3>";
+
+          preg_match("/(.+) /", $post->post_date, $date_match_array);
+          echo "<h3>" . $date_match_array[1] . "</h3>";
+
+          echo "<br>";
       	}
         ?>
 
