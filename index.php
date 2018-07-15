@@ -27,59 +27,43 @@
         </div>
       </header>
       <div class="content">
-        <?php
-        $args = array(
-        	"posts_per_page"   => 3,
-        	"paged"            => 1,
-        	"category"         => 2
-        );
-
-        $posts_array = get_posts($args);
-
-        foreach($posts_array as $post)
-      	{
-          preg_match("/by (.+)/", $post->post_title, $artist_match_array);
-          echo "<h3>" . $artist_match_array[1] . "</h3>";
-
-          preg_match("/UCR (#.+) by/", $post->post_title, $number_match_array);
-          echo "<h3>" . $number_match_array[1] . "</h3>";
-
-          echo "<h3>Podcast</h3>";
-
-          preg_match("/(.+) /", $post->post_date, $date_match_array);
-          echo "<h3>" . $date_match_array[1] . "</h3>";
-
-          echo "<br>";
-      	}
-        ?>
 
         <div class="section">
           <h2>RADIO</h2>
           <div class="section-infos">
-            <div class="section-info background1">
-              <h3>ALI KURU</h3>
-              <div class="section-details">
-                <h4 class="number">#40</h4>
-                <h4 class="type">Podcast</h4>
-                <h4 class="date">20 dec 19</h4>
+            <?php
+            $args = array(
+              "posts_per_page"   => 3,
+              "paged"            => 1,
+              "category"         => 2
+            );
+
+            $posts_array = get_posts($args);
+
+            foreach($posts_array as $post)
+            {
+              preg_match("/by (.+)/", $post->post_title, $artist_match_array);
+              $my_artist = $artist_match_array[1];
+
+              preg_match("/UCR (#.+) by/", $post->post_title, $number_match_array);
+              $my_number = $number_match_array[1];
+
+              preg_match("/(.+) /", $post->post_date, $date_match_array);
+              $my_date = $date_match_array[1];
+            ?>
+
+              <div class="section-info background1">
+                <h3><?php echo $my_artist ?></h3>
+                <div class="section-details">
+                  <h4 class="number"><?php echo $my_number ?></h4>
+                  <h4 class="type">Podcast</h4>
+                  <h4 class="date"><?php echo $my_date ?></h4>
+                </div>
               </div>
-            </div>
-            <div class="section-info background2">
-              <h3>EXZ</h3>
-              <div class="section-details">
-                <h4 class="number">#39</h4>
-                <h4 class="type">Podcast</h4>
-                <h4 class="date">2 dec 19</h4>
-              </div>
-            </div>
-            <div class="section-info background3">
-              <h3>CALESSI</h3>
-              <div class="section-details">
-                <h4 class="number">#38</h4>
-                <h4 class="type">Podcast</h4>
-                <h4 class="date">12 nov 19</h4>
-              </div>
-            </div>
+
+            <?php
+            }
+            ?>
           </div>
           <div class="see-all-row">
             <button class="see-all">See all</button>
