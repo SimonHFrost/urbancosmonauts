@@ -6,8 +6,7 @@
       preg_match("/UCR (#.+) by/", get_the_title(), $number_match_array);
       $my_number = $number_match_array[1];
 
-      preg_match("/(.+) /", get_the_date(), $date_match_array);
-      $my_date = $date_match_array[1];
+      $my_date = get_the_date();
 ?>
 
   <div class="section-info background3">
