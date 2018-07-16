@@ -20,6 +20,10 @@
           $image = get_field('featured_image');
           $size = 'full'; // (thumbnail, medium, large, full or custom size)
 
+          echo '<pre>';
+          	var_dump( $image );
+          echo '</pre>';
+
           if( $image ) {
           	echo wp_get_attachment_image( $image, $size );
           }
