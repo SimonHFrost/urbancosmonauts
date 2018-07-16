@@ -1,22 +1,13 @@
-<?php
-$args = array(
-  "posts_per_page"   => 3,
-  "paged"            => 1,
-  "category"         => 2
-);
+<?php $my_query = new WP_Query( 'cat=2&posts_per_page=3' );
+  while ( $my_query->have_posts() ) : $my_query->the_post();
+      preg_match("/by (.+)/", get_the_title(), $artist_match_array);
+      $my_artist = $artist_match_array[1];
 
-$posts_array = get_posts($args);
+      preg_match("/UCR (#.+) by/", get_the_title(), $number_match_array);
+      $my_number = $number_match_array[1];
 
-foreach($posts_array as $post)
-{
-  preg_match("/by (.+)/", $post->post_title, $artist_match_array);
-  $my_artist = $artist_match_array[1];
-
-  preg_match("/UCR (#.+) by/", $post->post_title, $number_match_array);
-  $my_number = $number_match_array[1];
-
-  preg_match("/(.+) /", $post->post_date, $date_match_array);
-  $my_date = $date_match_array[1];
+      preg_match("/(.+) /", get_the_date(), $date_match_array);
+      $my_date = $date_match_array[1];
 ?>
 
   <div class="section-info background3">
@@ -27,14 +18,14 @@ foreach($posts_array as $post)
       <h4 class="date"><?php echo $my_date ?></h4>
 
       <?php
-        // $image = $post->featured_image;
-        // $size = 'full'; // (thumbnail, medium, large, full or custom size)
-        //
-      	// echo wp_get_attachment_image( $image, $size );
+        $image = get_field('featured_image');
+        $size = 'full'; // (thumbnail, medium, large, full or custom size)
+
+        if( $image ) {
+        	echo wp_get_attachment_image( $image, $size );
+        }
       ?>
     </div>
   </div>
 
-<?php
-}
-?>
+<?php endwhile; ?>
