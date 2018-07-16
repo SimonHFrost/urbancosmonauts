@@ -9,22 +9,23 @@
       $my_date = get_the_date();
 ?>
 
-  <div class="section-info background3">
-    <h3><?php echo $my_artist ?></h3>
-    <div class="section-details">
-      <h4 class="number"><?php echo $my_number ?></h4>
-      <h4 class="type">Podcast</h4>
-      <h4 class="date"><?php echo $my_date ?></h4>
+    <div class="section-info background3">
+      <h3><?php echo $my_artist ?></h3>
+      <div class="section-details">
+        <h4 class="number"><?php echo $my_number ?></h4>
+        <h4 class="type">Podcast</h4>
+        <h4 class="date"><?php echo $my_date ?></h4>
 
-      <?php
-        $image = get_field('featured_image');
-        $size = 'full'; // (thumbnail, medium, large, full or custom size)
+        <?php
+          $image = get_field('featured_image');
+          $size = 'full'; // (thumbnail, medium, large, full or custom size)
 
-        if( $image ) {
-        	echo wp_get_attachment_image( $image, $size );
-        }
-      ?>
+          if( $image ) {
+            echo "wow";
+          	echo wp_get_attachment_image( $image, $size );
+          }
+        ?>
+      </div>
     </div>
-  </div>
 
 <?php endwhile; ?>
