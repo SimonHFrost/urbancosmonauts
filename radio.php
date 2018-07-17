@@ -1,4 +1,4 @@
-<?php $my_query = new WP_Query( 'cat=2&posts_per_page=3' );
+<?php $my_query = new WP_Query( 'cat=4&posts_per_page=3' );
   while ( $my_query->have_posts() ) : $my_query->the_post();
       preg_match("/by (.+)/", get_the_title(), $artist_match_array);
       $my_artist = $artist_match_array[1];
@@ -17,18 +17,19 @@
         <h4 class="date"><?php echo $my_date ?></h4>
 
         <?php
-          $image = get_field('featured_image');
+          $featured_image = the_field('featured_image', 1109);
+          var_dump( $featured_image );
+          echo $featured_image;
+
           $size = 'full'; // (thumbnail, medium, large, full or custom size)
 
-          echo '<pre>';
-          	var_dump( $image );
-          echo '</pre>';
-
-          if( $image ) {
+          if( $featured_image ) {
           	echo wp_get_attachment_image( $image, $size );
           }
         ?>
       </div>
     </div>
 
-<?php endwhile; ?>
+<?php endwhile;
+wp_reset_postdata();
+?>
