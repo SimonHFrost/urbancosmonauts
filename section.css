@@ -39,6 +39,7 @@
   width: 200px;
   height: 200px;
   padding: 20px;
+  transition: filter 0.2s ease;
 }
 
 .section-info:hover {
