@@ -19,24 +19,35 @@
   margin-bottom: 40px;
 }
 
+.section-info-parent {
+  position: relative;
+}
+
+.artist-header {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 100;
+  font-family: 'Russo One', sans-serif;
+  font-size: 32px;
+}
+
 .section-info {
   display: inline-block;
   position: relative;
-  background-color: white;
+  filter: grayscale(100%);
   width: 200px;
   height: 200px;
   padding: 20px;
 }
 
-.section-info ul {
-  list-style: none;
+.section-info:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
 }
 
-.section-info h3 {
-  font-family: 'Russo One', sans-serif;
-  font-size: 32px;
-  margin: 0;
-  text-align: right;
+.section-info ul {
+  list-style: none;
 }
 
 .section-info h4 {
