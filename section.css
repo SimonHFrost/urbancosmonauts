@@ -30,6 +30,7 @@
   z-index: 100;
   font-family: 'UCR', sans-serif;
   font-size: 32px;
+  text-transform: uppercase;
 }
 
 .section-info {
