@@ -41,7 +41,7 @@
           <h2>RELEASES</h2>
           <div class="section-infos">
             <div class="section-info-parent">
-              <h3 class="artist-header" style="color: #779ecb">REVERIES</h3>
+              <h3 class="artist-header" style="color: #fdfd96">REVERIES</h3>
               <div class="section-info background4">
                 <div class="section-details">
                   <h4 class="number">#121</h4>
@@ -50,20 +50,24 @@
                 </div>
               </div>
             </div>
-            <div class="section-info background5">
-              <h3>ULISES UNA</h3>
-              <div class="section-details">
-                <h4 class="number">#120</h4>
-                <h4 class="type">Single</h4>
-                <h4 class="date">2 dec 19</h4>
+            <div class="section-info-parent">
+              <h3 class="artist-header" style="color: #ff6961">ULISES UNA</h3>
+              <div class="section-info background5">
+                <div class="section-details">
+                  <h4 class="number">#120</h4>
+                  <h4 class="type">Single</h4>
+                  <h4 class="date">2 dec 19</h4>
+                </div>
               </div>
             </div>
-            <div class="section-info background6">
-              <h3>TALES</h3>
-              <div class="section-details">
-                <h4 class="number">#119</h4>
-                <h4 class="type">Compilation</h4>
-                <h4 class="date">12 nov 19</h4>
+            <div class="section-info-parent">
+              <h3 class="artist-header" style="color: #779ecb">TALES</h3>
+              <div class="section-info background6">
+                <div class="section-details">
+                  <h4 class="number">#119</h4>
+                  <h4 class="type">Compilation</h4>
+                  <h4 class="date">12 nov 19</h4>
+                </div>
               </div>
             </div>
           </div>
