@@ -55,7 +55,6 @@
 }
 
 .section-info:hover {
-  cursor: pointer;
   filter: grayscale(0%);
 }
 

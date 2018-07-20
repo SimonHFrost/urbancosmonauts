@@ -13,13 +13,13 @@
     <div class="section-info-parent">
       <h3 class="artist-header" style="color: <?php echo get_field('artist_header_color')?> "> <?php echo $my_artist ?></h3>
 
-      <div class="section-info" style="background-image: url(<?php echo $featured_image['url']; ?>)";>
+      <a class="section-info" href="./radio" style="background-image: url(<?php echo $featured_image['url']; ?>)";>
         <div class="section-details">
           <h4 class="number"><?php echo $my_number ?></h4>
           <h4 class="type">Podcast</h4>
           <h4 class="date"><?php echo $my_date ?></h4>
         </div>
-      </div>
+      </a>
 
     </div>
 
