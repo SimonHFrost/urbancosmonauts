@@ -24,8 +24,8 @@
   position: relative;
 }
 
-.sectioninfo-parent h3 {
-  transition: color 0.4s ease;
+.section-info-parent h3 {
+  transition: color 0.2s ease;
 }
 
 .section-info-parent:hover h3 {
