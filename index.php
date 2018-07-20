@@ -40,12 +40,14 @@
         <div class="section">
           <h2>RELEASES</h2>
           <div class="section-infos">
-            <div class="section-info background4">
-              <h3>REVERIES</h3>
-              <div class="section-details">
-                <h4 class="number">#121</h4>
-                <h4 class="type">Compilation</h4>
-                <h4 class="date">20 dec 19</h4>
+            <div class="section-info-parent">
+              <h3 class="artist-header" style="color: #779ecb">REVERIES</h3>
+              <div class="section-info background4">
+                <div class="section-details">
+                  <h4 class="number">#121</h4>
+                  <h4 class="type">Compilation</h4>
+                  <h4 class="date">20 dec 19</h4>
+                </div>
               </div>
             </div>
             <div class="section-info background5">
