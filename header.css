@@ -22,7 +22,11 @@ nav {
 }
 
 nav li {
-  color: white;
   display: inline-block;
   margin-right: 40px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
 }

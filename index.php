@@ -19,9 +19,8 @@
           <h1>URBAN COSMONAUT RADIO</h1>
           <nav>
             <ul>
-              <li>Radio</li>
-              <li>Releases</li>
-              <li>Contact</li>
+              <li><a href="./radio">Radio</a></li>
+              <li><a href="./releases">Releases</a></li>
             </ul>
           </nav>
         </div>
@@ -34,7 +33,7 @@
             <?php get_template_part( 'radio' ); ?>
           </div>
           <div class="see-all-row">
-            <button class="see-all">See all</button>
+            <a href="./radio" class="see-all">See all</a>
           </div>
         </div>
         <div class="section">
@@ -72,7 +71,7 @@
             </div>
           </div>
           <div class="see-all-row">
-            <button class="see-all">See all</button>
+            <a href="./releases" class="see-all">See all</a>
           </div>
         </div>
       </div>
