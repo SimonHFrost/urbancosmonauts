@@ -10,6 +10,11 @@ Tags: urban, cosmonauts
 Text Domain: urbancosmonauts
 */
 
+@font-face {
+  font-family: 'UCR';
+  src: url('fonts/Urban_Cosmonaut-Regular.ttf');
+}
+
 body {
   font-family: 'Scada',sans-serif;
   background-color: gray;
@@ -22,7 +27,8 @@ body {
 }
 
 h1 {
-  font-family: 'Russo One', sans-serif;
+  font-family: 'UCR', sans-serif;
+  letter-spacing: 3px;
   font-size: 32px;
   margin-bottom: 20px;
 }
