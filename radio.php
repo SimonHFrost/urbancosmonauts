@@ -4,7 +4,7 @@
       $my_artist = $artist_match_array[1];
 
       preg_match("/(Radio |UCR )(#.+) by/", get_the_title(), $number_match_array);
-      $my_number = $number_match_array[1];
+      $my_number = $number_match_array[2];
 
       $my_date = get_the_date();
       $featured_image = get_field('featured_image');
@@ -16,7 +16,7 @@
       <a class="section-info" href="./radio" style="background-image: url(<?php echo $featured_image['url']; ?>)";>
         <div class="section-details">
           <h4 class="number"><?php echo $my_number ?></h4>
-          <h4 class="type">Podcast</h4>
+          <h4 class="type"><?php echo ($param_cat === 5) ? "Podcast" : "Release"?></h4>
           <h4 class="date"><?php echo $my_date ?></h4>
         </div>
       </a>
