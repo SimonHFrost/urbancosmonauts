@@ -1,5 +1,17 @@
 <?php /* Template Name: radio-page.php */ ?>
 
-<h1>Radio Page</h1>
+<?php get_template_part( 'header' ); ?>
+<div class="content">
 
-<h2>Under construction brooooo</h2>
+  <div class="section">
+    <h2>UNDER CONSTRUCTION</h2>
+
+    <div class="section-infos">
+      <?php $param_cat = 5; ?>
+      <?php include( locate_template( 'section-info.php', false, false ) ); ?>
+    </div>
+
+  </div>
+
+</div>
+<?php get_template_part( 'footer' ); ?>
