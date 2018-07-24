@@ -1,9 +1,9 @@
-<?php $my_query = new WP_Query( 'cat=5&posts_per_page=3' );
+<?php $my_query = new WP_Query( "cat={$param_cat}&posts_per_page=3" );
   while ( $my_query->have_posts() ) : $my_query->the_post();
       preg_match("/by (.+)/", get_the_title(), $artist_match_array);
       $my_artist = $artist_match_array[1];
 
-      preg_match("/Radio (#.+) by/", get_the_title(), $number_match_array);
+      preg_match("/(Radio |UCR )(#.+) by/", get_the_title(), $number_match_array);
       $my_number = $number_match_array[1];
 
       $my_date = get_the_date();

@@ -30,7 +30,8 @@
         <div class="section">
           <h2>RADIO</h2>
           <div class="section-infos">
-            <?php get_template_part( 'radio' ); ?>
+            <?php $param_cat = 5; ?>
+            <?php include( locate_template( 'radio.php', false, false ) ); ?>
           </div>
           <div class="see-all-row">
             <a href="./radio" class="see-all">See all</a>
@@ -39,36 +40,8 @@
         <div class="section">
           <h2>RELEASES</h2>
           <div class="section-infos">
-            <div class="section-info-parent">
-              <h3 class="artist-header" style="color: #fdfd96">REVERIES</h3>
-              <a class="section-info background4" href="./releases">
-                <div class="section-details">
-                  <h4 class="number">#121</h4>
-                  <h4 class="type">Compilation</h4>
-                  <h4 class="date">20 dec 19</h4>
-                </div>
-              </a>
-            </div>
-            <div class="section-info-parent">
-              <h3 class="artist-header" style="color: #ff6961">ULISES UNA</h3>
-              <a class="section-info background5" href="./releases">
-                <div class="section-details">
-                  <h4 class="number">#120</h4>
-                  <h4 class="type">Single</h4>
-                  <h4 class="date">2 dec 19</h4>
-                </div>
-              </a>
-            </div>
-            <div class="section-info-parent">
-              <h3 class="artist-header" style="color: #779ecb">TALES</h3>
-              <a class="section-info background6" href="./releases">
-                <div class="section-details">
-                  <h4 class="number">#119</h4>
-                  <h4 class="type">Compilation</h4>
-                  <h4 class="date">12 nov 19</h4>
-                </div>
-              </a>
-            </div>
+            <?php $param_cat = 4; ?>
+            <?php include( locate_template( 'radio.php', false, false ) ); ?>
           </div>
           <div class="see-all-row">
             <a href="./releases" class="see-all">See all</a>
