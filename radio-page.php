@@ -4,10 +4,10 @@
 <div class="content">
 
   <div class="section">
-    <h2>UNDER CONSTRUCTION</h2>
+    <h2>RADIO</h2>
 
     <div class="section-infos">
-      <?php $param_cat = 5; ?>
+      <?php $param_cat = 5; $param_posts_per_page = 6; ?>
       <?php include( locate_template( 'section-info.php', false, false ) ); ?>
     </div>
 

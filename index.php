@@ -4,7 +4,7 @@
   <div class="section">
     <h2>RADIO</h2>
     <div class="section-infos">
-      <?php $param_cat = 5; ?>
+      <?php $param_cat = 5; $param_posts_per_page = 3; ?>
       <?php include( locate_template( 'section-info.php', false, false ) ); ?>
     </div>
     <div class="see-all-row">
@@ -14,7 +14,9 @@
   <div class="section">
     <h2>RELEASES</h2>
     <div class="section-infos">
-      <?php $param_cat = 4; ?>
+      <?php
+        $param_cat = 4; $param_posts_per_page = 3;
+      ?>
       <?php include( locate_template( 'section-info.php', false, false ) ); ?>
     </div>
     <div class="see-all-row">
