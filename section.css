@@ -14,13 +14,13 @@
 }
 
 .section-infos {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
 /* So the header doesn't get greyscaled */
 .section-info-parent {
+  display: inline-block;
   position: relative;
 }
 
