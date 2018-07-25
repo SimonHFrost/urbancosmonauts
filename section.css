@@ -14,14 +14,18 @@
 }
 
 .section-infos {
-  justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* So the header doesn't get greyscaled */
 .section-info-parent {
   display: inline-block;
   position: relative;
+  margin-right: 45px;
+}
+
+.section-info-parent:last-of-type {
+  margin-right: 0;
 }
 
 .section-info-parent h3 {
