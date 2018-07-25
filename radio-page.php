@@ -7,7 +7,7 @@
     <h2>RADIO</h2>
 
     <div class="section-infos">
-      <?php $param_cat = 5; $param_posts_per_page = 6; ?>
+      <?php $param_cat = 5; $param_posts_per_page = 24; ?>
       <?php include( locate_template( 'section-info.php', false, false ) ); ?>
     </div>
 
