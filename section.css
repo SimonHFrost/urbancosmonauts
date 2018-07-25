@@ -107,18 +107,3 @@
   height: 40px;
   padding-top: 10px;
 }
-
-.background4 {
-  background-image: url("images/4.jpg");
-  background-size: contain;
-}
-
-.background5 {
-  background-image: url("images/5.jpg");
-  background-size: contain;
-}
-
-.background6 {
-  background-image: url("images/6.jpg");
-  background-size: contain;
-}
