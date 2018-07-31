@@ -1,6 +1,6 @@
 .radio-page .highlight-row {
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .radio-page .selected-track-image {
@@ -11,16 +11,25 @@
 
 .radio-page .selected-track-info {
   flex: 1;
+  padding: 24px;
 }
 
 .radio-page h4.number {
+  font-size: 16px;
+  margin-bottom: 6px;
 }
 
 .radio-page h4.type {
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
 .radio-page h4.date {
+  font-size: 12px;
 }
 
-.radio-page h4.artist-header {
+.radio-page h3.artist-header {
+  font-family: 'UCR', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
 }
