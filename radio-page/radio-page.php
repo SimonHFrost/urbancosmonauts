@@ -17,10 +17,8 @@
       </div>
     </div>
 
-    <div class="section-infos">
-      <?php $param_cat = 5; $param_posts_per_page = 36; ?>
-      <?php include( locate_template( 'section-info.php', false, false ) ); ?>
-    </div>
+    <?php $param_cat = 5; $param_posts_per_page = 36; ?>
+    <?php include( locate_template( 'section-info.php', false, false ) ); ?>
 
   </div>
 
