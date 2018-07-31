@@ -18,7 +18,7 @@
     </div>
 
     <?php $param_cat = 5; $param_posts_per_page = 36; ?>
-    <?php include( locate_template( 'section-info.php', false, false ) ); ?>
+    <?php include( locate_template( 'section-infos.php', false, false ) ); ?>
 
   </div>
 
