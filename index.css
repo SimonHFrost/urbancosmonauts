@@ -1,0 +1,32 @@
+.section {
+  color: gray;
+  background-color: black;
+  margin-bottom: 32px;
+  padding: 40px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 80px;
+  letter-spacing: 10px;
+  margin-bottom: -12px;
+  font-weight: 200px;
+}
+
+.see-all-row {
+  text-align: center;
+}
+
+.see-all {
+  box-sizing: border-box;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: white solid 1px;
+  border-radius: 8px;
+  width: 160px;
+  height: 40px;
+  padding-top: 10px;
+}

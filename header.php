@@ -6,7 +6,8 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/fonts/Urban_Cosmonaut-Regular.ttf" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/header.css" rel="stylesheet">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/section.css" rel="stylesheet">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/index.css" rel="stylesheet">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/section-infos.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
