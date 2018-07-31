@@ -1,14 +1,14 @@
 <?php /* Template Name: radio-page.php */ ?>
 
 <?php get_template_part( 'header' ); ?>
-<div class="content">
+<div class="content radio-page">
 
   <div class="section">
     <h2>RADIO</h2>
 
     <div class="highlight-row">
-      <div class="section-info" style="background-image: url(http://localhost:8888/urbancosmonauts/wp-content/uploads/2018/06/1.jpg); filter: grayscale(0%) !important;"></div>
-      <div>
+      <div class="selected-track-image" style="background-image: url(http://localhost:8888/urbancosmonauts/wp-content/uploads/2018/06/1.jpg); filter: grayscale(0%) !important;"></div>
+      <div class="selected-track-info">
         <h4 class="number">#45</h4>
         <h4 class="type">Podcast</h4>
         <h4 class="date">June 13, 2018</h4>
