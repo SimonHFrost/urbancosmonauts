@@ -7,7 +7,7 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/header.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/index.css" rel="stylesheet">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/section-infos.css" rel="stylesheet">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/section-infos/section-infos.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/radio-page/radio-page.css" rel="stylesheet">
   </head>
   <body>
