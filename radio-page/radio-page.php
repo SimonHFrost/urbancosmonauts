@@ -12,7 +12,7 @@
         <h4 class="number">#45</h4>
         <h4 class="type">Podcast</h4>
         <h4 class="date">June 13, 2018</h4>
-        <h3 class="artist-header">ISLANDMAN</h3>
+        <h4 class="artist-header">ISLANDMAN</h4>
         <iframe class="soundcloud-player" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/457337355&color=%23cfc4cb&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>
     </div>

@@ -14,21 +14,26 @@
   padding: 24px;
 }
 
-.radio-page h4.number {
-  font-size: 16px;
-  margin-bottom: 6px;
-}
-
-.radio-page h4.type {
-  font-size: 30px;
+h4 {
   margin-bottom: 10px;
 }
 
+.radio-page h4.number {
+  font-size: 24px;
+}
+
+.radio-page h4.type {
+  color: white;
+  font-size: 24px;
+}
+
 .radio-page h4.date {
+  color: white;
   font-size: 12px;
 }
 
-.radio-page h3.artist-header {
+.radio-page h4.artist-header {
+  color: #779ecb;
   font-family: 'UCR', sans-serif;
   font-size: 32px;
   text-transform: uppercase;
