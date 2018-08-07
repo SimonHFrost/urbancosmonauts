@@ -1,17 +1,15 @@
-<?php /* Template Name: radio-page.php */ ?>
+<?php
+/* Template Name: radio-page.php */
 
-<?php get_template_part( 'header' ); ?>
-<div class="content radio-page">
+// Set up the latest post as the current post then load the instance template
 
-  <div class="section">
-    <h2>RADIO</h2>
+$latest_post = get_posts("cat=5&numberposts=1");
+$ID = $latest_post[0]->ID;
 
-    <?php $track_number = 457337355; ?>
-    <?php include( locate_template( 'radio-page/highlight-row.php', false, false) ); ?>
+global $post;
+$post = get_post( $ID, OBJECT );
+setup_postdata( $post );
 
-    <?php $param_cat = 5; $param_posts_per_page = 36; ?>
-    <?php include( locate_template( 'section-infos/section-infos.php', false, false ) ); ?>
-  </div>
+include( locate_template( 'single-category-radio.php', false, false ) );
 
-</div>
-<?php get_template_part( 'footer' ); ?>
+?>

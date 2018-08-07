@@ -4,6 +4,7 @@
   <div class="section">
     <h2>RADIO</h2>
 
+    <!-- TODO Put track number in custom field -->
     <?php $track_number = 457337355; ?>
     <?php include( locate_template( 'radio-page/highlight-row.php', false, false) ); ?>
 
