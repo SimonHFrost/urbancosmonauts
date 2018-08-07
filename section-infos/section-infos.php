@@ -9,12 +9,15 @@
 
         $my_date = get_the_date();
         $featured_image = get_field('featured_image');
+
+        global $post;
+        $post_slug=$post->post_name;
   ?>
 
       <div class="section-info-parent">
         <h3 class="artist-header" style="color: <?php echo get_field('artist_header_color')?> "> <?php echo $my_artist ?></h3>
 
-        <a class="section-info" href="./radio" style="background-image: url(<?php echo $featured_image['url']; ?>)";>
+        <a class="section-info" href="./radio/<?php echo $post_slug ?>" style="background-image: url(<?php echo $featured_image['url']; ?>)";>
           <div class="section-details">
             <h4 class="number"><?php echo $my_number ?></h4>
             <h4 class="type"><?php echo ($param_cat === 5) ? "Podcast" : "Release"?></h4>
