@@ -1,7 +1,6 @@
 <?php get_template_part( 'header' ); ?>
 <div class="content radio-page">
 
-  <!-- TODO Should share code between this and radio.page.php -->
   <div class="section">
     <h2>RADIO</h2>
 

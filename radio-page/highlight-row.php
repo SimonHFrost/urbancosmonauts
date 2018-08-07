@@ -1,5 +1,5 @@
 <div class="highlight-row">
-  <div class="selected-track-image" style="background-image: url(http://localhost:8888/urbancosmonauts/wp-content/uploads/2018/06/1.jpg); filter: grayscale(0%) !important;"></div>
+  <div class="selected-track-image" style="background-image: url(<?php echo get_field('featured_image')['url'] ?>); filter: grayscale(0%) !important;"></div>
   <div class="selected-track-info">
     <h4 class="number">#45</h4>
     <h4 class="type">Podcast</h4>
