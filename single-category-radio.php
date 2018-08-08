@@ -4,7 +4,6 @@
   <div class="section">
     <h2>RADIO</h2>
 
-    <!-- TODO Put track number in custom field -->
     <?php include( locate_template( 'radio-page/highlight-row.php', false, false) ); ?>
 
     <?php $param_cat = 5; $param_posts_per_page = 36; ?>
