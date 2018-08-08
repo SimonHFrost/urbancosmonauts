@@ -1,5 +1,5 @@
 <div class="section-infos">
-  <?php $my_query = new WP_Query( "cat={$param_cat}&posts_per_page={$param_posts_per_page}" );
+  <?php $my_query = new WP_Query( "category_name={$param_cat}&posts_per_page={$param_posts_per_page}" );
     while ( $my_query->have_posts() ) : $my_query->the_post();
         global $post;
         $post_slug=$post->post_name;

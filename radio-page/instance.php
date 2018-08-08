@@ -10,7 +10,7 @@
     <?php
     if (is_page()) {
       // Load first post if loading the index page
-      $latest_post = get_posts("cat=5&numberposts=1");
+      $latest_post = get_posts("category_name=radio&numberposts=1");
       $ID = $latest_post[0]->ID;
 
       global $post;
@@ -32,7 +32,7 @@
     </div>
     <?php } ?>
 
-    <?php $param_cat = 5; $param_posts_per_page = 36; ?>
+    <?php $param_cat = 'radio'; $param_posts_per_page = 36; ?>
     <?php include( locate_template( 'section-infos/section-infos.php', false, false ) ); ?>
   </div>
 
