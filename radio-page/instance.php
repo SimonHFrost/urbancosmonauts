@@ -9,7 +9,7 @@
 
     <?php
     if (is_page()) {
-      // Get the first post if loading the index page
+      // Load first post if loading the index page
       $latest_post = get_posts("cat=5&numberposts=1");
       $ID = $latest_post[0]->ID;
 
