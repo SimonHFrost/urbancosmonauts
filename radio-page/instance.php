@@ -5,6 +5,8 @@
     <h2>RADIO</h2>
 
     <?php include( locate_template( 'radio-page/highlight-row.php', false, false) ); ?>
+    <?php if (!$post) { the_post(); } ?>
+    <?php echo the_content(); ?>
 
     <?php $param_cat = 5; $param_posts_per_page = 36; ?>
     <?php include( locate_template( 'section-infos/section-infos.php', false, false ) ); ?>
