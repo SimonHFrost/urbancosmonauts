@@ -14,6 +14,7 @@
   position: relative;
   flex: 1;
   padding: 0 10px;
+  padding-top: 34px;
 }
 
 h4 {
@@ -37,6 +38,7 @@ h4 {
 
 .soundcloud-player {
   position: absolute;
+  bottom: 0px;
   left: -160px;
   width: 680px;
 }
