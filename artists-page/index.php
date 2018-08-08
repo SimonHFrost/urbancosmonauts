@@ -1,10 +1,10 @@
-<?php /* Template Name: releases-page.php */ ?>
+<?php /* Template Name: artists-page/index.php */ ?>
 
 <?php get_template_part( 'header' ); ?>
 <div class="content">
 
   <div class="section">
-    <h2>RELEASES</h2>
+    <h2>ARTISTS</h2>
     <h3>...</h3>
   </div>
 
