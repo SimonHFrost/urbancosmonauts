@@ -1,5 +1,5 @@
 <?php
-/* Template Name: radio-page.php */
+/* Template Name: radio-page/index.php */
 
 // Set up the latest post as the current post then load the instance template
 
