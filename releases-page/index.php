@@ -1,4 +1,6 @@
-<?php /* Template Name: releases-page.php */ ?>
+<?php
+/* Template Name: releases-page/index.php */
+?>
 
 <?php get_template_part( 'header' ); ?>
 <div class="content">
