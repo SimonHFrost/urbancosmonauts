@@ -10,6 +10,6 @@ global $post;
 $post = get_post( $ID, OBJECT );
 setup_postdata( $post );
 
-include( locate_template( 'single-category-radio.php', false, false ) );
+include( locate_template( 'radio-page/instance.php', false, false ) );
 
 ?>
