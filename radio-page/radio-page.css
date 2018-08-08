@@ -48,3 +48,10 @@
   color: #E3E3E3;
   margin-bottom: 24px;
 }
+
+.radio-page summary {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 16px;
+}

@@ -23,9 +23,14 @@
 
     <?php include( locate_template( 'radio-page/highlight-row.php', false, false) ); ?>
 
+    <?php if ($post->post_content) { ?>
     <div class="page-content">
-      <?php echo the_content(); ?>
+      <details>
+        <summary>SEE MORE ABOUT THIS RELEASE</summary>
+        <?php echo the_content(); ?>
+      </details>
     </div>
+    <?php } ?>
 
     <?php $param_cat = 5; $param_posts_per_page = 36; ?>
     <?php include( locate_template( 'section-infos/section-infos.php', false, false ) ); ?>
