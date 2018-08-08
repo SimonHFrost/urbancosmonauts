@@ -1,7 +1,7 @@
 <div class="highlight-row">
   <div class="selected-track-image" style="background-image: url(<?php echo get_field('featured_image')['url'] ?>); filter: grayscale(0%) !important;"></div>
   <div class="selected-track-info">
-    <h4 class="number"><?php echo get_field('title') ?></h4>
+    <h4 class="title"><?php echo get_field('title') ?></h4>
     <h4 class="type">Podcast</h4>
     <h4 class="date"><?php echo get_the_date(); ?></h4>
     <h4 class="artist-header" style="color: <?php echo get_field('artist_header_color') ?>"><?php echo get_field('artist_name') ?></h4>
