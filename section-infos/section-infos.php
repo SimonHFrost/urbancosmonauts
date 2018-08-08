@@ -12,7 +12,6 @@
           <div class="section-details">
             <h4 class="title"><?php echo get_field('title') ?></h4>
             <?php if (!get_field('title')) { echo get_the_title(); } ?>
-            <h4 class="type">Podcast</h4>
             <h4 class="date"><?php echo get_the_date(); ?></h4>
           </div>
         </a>
