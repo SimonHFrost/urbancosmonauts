@@ -15,7 +15,7 @@
     <h2>ARTISTS</h2>
     <h3>Interested in booking an artist? Select the artist you want to book, and complete the form</h3>
 
-    <div class="section-infos">
+    <div class="artist-section-infos">
 
       <?php $param_cat = 'artists'; $param_posts_per_page = 36; ?>
       <?php $my_query = new WP_Query( "category_name={$param_cat}&posts_per_page={$param_posts_per_page}" );
