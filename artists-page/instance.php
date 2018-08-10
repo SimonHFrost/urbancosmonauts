@@ -3,11 +3,12 @@
 <?php get_template_part( 'header' ); ?>
 <div class="content">
 
-  <div class="section">
+
     <?php if (is_single()) { ?>
-      <?php include( locate_template( 'artists-page/highlight-row.php', false, false) ); ?>
+      <div class="section">
+        <?php include( locate_template( 'artists-page/highlight-row.php', false, false) ); ?>
+      </div>
     <?php } ?>
-  </div>
 
   <div class="section">
     <h2>ARTISTS</h2>
