@@ -22,14 +22,17 @@
   color: white !important;
 }
 
+.artist-header {
+  font-family: 'UCR', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
 .artist-section-infos .artist-header {
   position: absolute;
   right: 10px;
   top: 10px;
   z-index: 100;
-  font-family: 'UCR', sans-serif;
-  font-size: 32px;
-  text-transform: uppercase;
 }
 
 .artist-section-infos .section-info {
@@ -64,8 +67,4 @@
 .artist-section-infos .section-info h4.title {
   font-size: 16px;
   margin-bottom: 6px;
-}
-
-.artist-section-infos .section-info h4.date {
-  font-size: 12px;
 }

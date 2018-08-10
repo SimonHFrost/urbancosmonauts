@@ -1,7 +1,7 @@
 <?php /* Template Name: artists-page/index.php */ ?>
 
 <?php get_template_part( 'header' ); ?>
-<div class="content">
+<div class="content artist-instance">
 
 
     <?php if (is_single()) { ?>
