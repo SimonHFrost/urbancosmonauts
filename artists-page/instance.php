@@ -5,6 +5,7 @@
 
 
     <?php if (is_single()) { ?>
+      <?php the_post(); ?>
       <div class="section">
         <?php include( locate_template( 'artists-page/highlight-row.php', false, false) ); ?>
       </div>
