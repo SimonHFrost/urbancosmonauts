@@ -5,6 +5,6 @@
   </div>
   <div class="highlight-content">
     <div class="summary"><?php echo the_content() ?></div>
-    <a class="book-button" style="color: <?php echo get_field('artist_header_color')?>; border-color:<?php echo get_field('artist_header_color')?>">Booking request</a>
+    <a href="./contact" class="book-button" style="color: <?php echo get_field('artist_header_color')?>; border-color:<?php echo get_field('artist_header_color')?>">Booking request</a>
   </div>
 </div>
