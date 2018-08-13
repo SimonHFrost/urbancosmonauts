@@ -14,5 +14,13 @@
 }
 
 .artist-highlight-row .summary {
-  margin-bottom: 16px;
+  margin-bottom: 26px;
+}
+
+.artist-highlight-row .book-button {
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid;
+  background-color: black;
+  border-radius: 4px;
 }
