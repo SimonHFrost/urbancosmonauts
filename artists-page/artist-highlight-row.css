@@ -3,8 +3,14 @@
   flex-direction: row;
 }
 
+.artist-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
 .artist-highlight-row .highlight-content {
   padding: 15px;
+  padding-top: 40px;
 }
 
 .artist-highlight-row .summary {
