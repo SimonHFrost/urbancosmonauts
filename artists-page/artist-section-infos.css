@@ -27,6 +27,7 @@
 }
 
 .artist-header {
+  pointer-events: none;
   font-family: 'UCR', sans-serif;
   font-size: 32px;
   text-transform: uppercase;
