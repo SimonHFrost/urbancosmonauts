@@ -1,0 +1,12 @@
+.artist-highlight-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.artist-highlight-row .highlight-content {
+  padding: 15px;
+}
+
+.artist-highlight-row .summary {
+  margin-bottom: 16px;
+}

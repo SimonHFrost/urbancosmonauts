@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .section {
   color: gray;
   background-color: black;
