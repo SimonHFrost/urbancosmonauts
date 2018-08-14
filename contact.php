@@ -2,7 +2,7 @@
 
 <?php get_template_part( 'header' ); ?>
 
-<div class="content">
+<div class="content" style="color: white">
   <?php
     $content = apply_filters('the_content', $post->post_content);
     echo $content;
