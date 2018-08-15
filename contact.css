@@ -1,0 +1,15 @@
+.contact {
+  color: white;
+}
+
+.contact .content {
+  display: flex;
+}
+
+.contact-info {
+  flex: 1
+}
+
+.contact-form {
+  flex: 3;
+}
