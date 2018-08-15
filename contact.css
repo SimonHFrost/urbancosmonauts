@@ -19,3 +19,8 @@
   text-transform: uppercase;
   margin-bottom: 12px;
 }
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+  width: 100%;
+}
