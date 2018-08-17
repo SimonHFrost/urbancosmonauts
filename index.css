@@ -1,15 +1,18 @@
 .section {
   color: gray;
   background-color: black;
+  border-radius: 20px;
   margin-bottom: 32px;
-  padding: 40px;
+  padding: 80px 40px;
 }
 
 .section h2 {
+  color: #555;
   text-align: center;
-  font-size: 80px;
+  font-size: 60px;
   letter-spacing: 10px;
-  font-weight: 200px;
+  margin-bottom: 30px;
+  font-weight: 600;
 }
 
 .see-all-row {

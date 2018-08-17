@@ -17,8 +17,7 @@ Text Domain: urbancosmonauts
 
 body {
   font-family: 'Scada',sans-serif;
-  background-image: url("images/background.jpg");
-  background-size: contain;
+  background-color: gray;
 }
 
 .container {
