@@ -2,7 +2,7 @@
 
 <?php get_template_part( 'header' ); ?>
 
-<div class="content radio-page">
+<div class="content releases-page">
 
   <div class="section">
     <h2>RELEASES</h2>

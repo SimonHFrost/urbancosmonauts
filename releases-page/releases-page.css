@@ -1,0 +1,58 @@
+.releases-page .highlight-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.releases-page .selected-track-image {
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+}
+
+.releases-page .selected-track-info {
+  position: relative;
+  flex: 1;
+  padding: 0 10px;
+  padding-top: 34px;
+}
+
+.releases-page h4 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.releases-page h4.title {
+  font-size: 24px;
+}
+
+.releases-page h4.date {
+  font-size: 12px;
+}
+
+.releases-page h4.artist-header {
+  pointer-events: none;
+  font-family: 'UCR', sans-serif;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.releases-page .soundcloud-player {
+  position: absolute;
+  bottom: 0px;
+  left: -160px;
+  width: 680px;
+}
+
+.releases-page .page-content p {
+  display: block;
+  color: #E3E3E3;
+  margin-bottom: 24px;
+}
+
+.releases-page summary {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 16px;
+}
