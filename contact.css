@@ -34,7 +34,7 @@ label {
 
 .contact .wpcf7 input,
 .contact .wpcf7 textarea {
-  background-color: inherit;
+  background-color: black;
   color: white;
   margin-bottom: 12px;
 }
