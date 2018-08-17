@@ -15,8 +15,10 @@
 }
 
 .contact h2 {
+  color: #b6ff9b;
   font-size: 24px;
   text-transform: uppercase;
+  margin-top: 40px;
   margin-bottom: 30px;
 }
 
@@ -40,7 +42,14 @@ label {
 }
 
 .contact .contact-form input,
-.contact .contact-form textarea,
-.contact .contact-form button {
+.contact .contact-form textarea {
   width: 100%;
+}
+
+.contact input[type="submit"] {
+  cursor: pointer;
+  padding: 5px 0;
+  border-radius: 5px;
+  color: #b6ff9b;
+  border: #b6ff9b 1px solid;
 }
