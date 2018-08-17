@@ -1,6 +1,7 @@
 .artist-highlight-row {
   display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
 }
 
 .artist-highlight-row .artist-header {
