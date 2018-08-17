@@ -17,17 +17,17 @@
   <body>
     <div class="container">
       <header>
-        <a href="<?php echo get_bloginfo( 'wpurl' );?>">
+        <a class="nav-image-link" href="<?php echo get_bloginfo( 'wpurl' );?>">
           <img class="nav-image" src="http://radio.urbancosmonaut.com/wp-content/uploads/2015/08/logo_nav.png"/>
         </a>
         <div class="nav-content">
           <h1>URBAN COSMONAUT</h1>
           <nav>
             <ul>
-              <li><a href="../radio">Radio</a></li>
-              <li><a href="../releases">Releases</a></li>
-              <li><a href="../artists">Artists</a></li>
-              <li><a href="../contact">Contact Us</a></li>
+              <li><a href="./radio">Radio</a></li>
+              <li><a href="./releases">Releases</a></li>
+              <li><a href="./artists">Artists</a></li>
+              <li><a href="./contact">Contact Us</a></li>
             </ul>
           </nav>
         </div>

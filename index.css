@@ -2,7 +2,8 @@
   color: gray;
   background-color: black;
   border-radius: 20px;
-  padding: 80px 40px;
+  padding: 40px;
+  padding-top: 80px;
 }
 
 .section {
