@@ -2,10 +2,6 @@
   margin-bottom: 12px;
 }
 
-.artist-section-infos {
-  margin-bottom: 15px;
-}
-
 /* So the header doesn't get greyscaled */
 .artist-section-infos .section-info-parent {
   display: inline-block;

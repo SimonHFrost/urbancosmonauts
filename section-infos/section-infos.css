@@ -1,7 +1,3 @@
-.section-infos {
-  margin-bottom: 15px;
-}
-
 /* So the header doesn't get greyscaled */
 .section-infos .section-info-parent {
   display: inline-block;
