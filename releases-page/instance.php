@@ -21,7 +21,7 @@
     }
     ?>
 
-    <?php include( locate_template( 'radio-page/highlight-row.php', false, false) ); ?>
+    <?php include( locate_template( 'releases-page/highlight-row.php', false, false) ); ?>
 
     <?php if ($post->post_content) { ?>
     <div class="page-content">
