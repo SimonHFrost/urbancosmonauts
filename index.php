@@ -15,7 +15,7 @@
     <?php $param_cat = 'releases'; $param_posts_per_page = 3; ?>
     <?php include( locate_template( 'section-infos/section-infos.php', false, false ) ); ?>
     <div class="see-all-row">
-      <a href="./releases" class="see-all">See all</a>
+      <a href="./releases" class="see-all">See all releases</a>
     </div>
   </div>
 
