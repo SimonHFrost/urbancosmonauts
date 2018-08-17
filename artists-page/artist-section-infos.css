@@ -1,5 +1,5 @@
-.artists-sub-header {
-  margin-bottom: 12px;
+.artist-section-infos {
+  margin-bottom: 30px;
 }
 
 /* So the header doesn't get greyscaled */
@@ -22,7 +22,7 @@
   color: white !important;
 }
 
-.artist-header {
+.artist-section-infos .artist-header {
   pointer-events: none;
   font-family: 'UCR', sans-serif;
   font-size: 32px;
