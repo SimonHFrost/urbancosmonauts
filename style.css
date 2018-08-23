@@ -15,8 +15,13 @@ Text Domain: urbancosmonauts
   src: url('fonts/Urban_Cosmonaut-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Brandon';
+  src: url('fonts/Brandon_reg.otf');
+}
+
 body {
-  font-family: 'Scada',sans-serif;
+  font-family: 'Brandon', sans-serif;
   background-color: gray;
 }
 
