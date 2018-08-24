@@ -20,13 +20,14 @@ body {
 }
 
 .section h2 {
+  font-family: 'Brandon-bold';
+  font-size: 96px;
   color: #555;
   text-align: center;
   font-size: 60px;
-  letter-spacing: 10px;
+  letter-spacing: 16px;
   padding-top: 80px;
   margin-bottom: 30px;
-  font-weight: 600;
 }
 
 .see-all-row {
