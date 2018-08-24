@@ -8,17 +8,18 @@
 
 header {
   margin-top: 32px;
+  padding-bottom: 40px;
 }
 
 header h1 {
+  line-height: 70px;
   color: white;
 }
 
 header .nav-image {
   width: 118px;
   height: 116px;
-  margin-right: 24px;
-  margin-bottom: 24px;
+  margin-right: 40px;
 }
 
 header .nav-image-link {
@@ -32,6 +33,7 @@ nav {
 nav li {
   display: inline-block;
   margin-right: 40px;
+  font-size: 24px;
 }
 
 nav li a {
