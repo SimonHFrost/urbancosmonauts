@@ -15,7 +15,7 @@
       <h3 class="artists-sub-header">Interested in booking an artist? Select the artist you want to book, and complete the form</h3>
     <?php } ?>
 
-    <?php $param_cat = 'artists'; $param_posts_per_page = 36; ?>
+    <?php $param_cat = 'artists'; $param_posts_per_page = 100; ?>
     <?php include( locate_template( 'artists-page/artist-section-infos.php', false, false ) ); ?>
   </div>
 
