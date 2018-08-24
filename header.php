@@ -18,7 +18,7 @@
     <div class="container">
       <header>
         <a class="nav-image-link" href="<?php echo get_bloginfo( 'wpurl' );?>">
-          <img class="nav-image" src="http://radio.urbancosmonaut.com/wp-content/uploads/2015/08/logo_nav.png"/>
+          <img class="nav-image" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo.png"/>
         </a>
         <div class="nav-content">
           <h1>URBAN COSMONAUT</h1>
