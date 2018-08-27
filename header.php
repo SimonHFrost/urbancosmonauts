@@ -12,7 +12,7 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/artists-page/artists-page.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/artists-page/artist-section-infos.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/artists-page/artist-highlight-row.css" rel="stylesheet">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/contact.css" rel="stylesheet">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/contact-page/contact.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
