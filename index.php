@@ -1,4 +1,4 @@
-<?php get_template_part( 'header' ); ?>
+<?php get_template_part( 'header-footer/header' ); ?>
 <div class="content">
 
   <div class="section">
@@ -30,4 +30,4 @@
   </div>
 
 </div>
-<?php get_template_part( 'footer' ); ?>
+<?php get_template_part( 'header-footer/footer' ); ?>

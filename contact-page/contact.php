@@ -1,6 +1,6 @@
 <?php /* Template Name: contact-page/contact.php */ ?>
 
-<?php get_template_part( 'header' ); ?>
+<?php get_template_part( 'header-footer/header' ); ?>
 
 <div class="contact">
   <div class="content">
@@ -35,4 +35,4 @@
   </div>
 </div>
 
-<?php get_template_part( 'footer' ); ?>
+<?php get_template_part( 'header-footer/footer' ); ?>
