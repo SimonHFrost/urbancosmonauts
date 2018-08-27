@@ -5,7 +5,7 @@
 <div class="content radio-page">
 
   <div class="section">
-    <h2>RADIO</h2>
+    <h2 class="radio-color">RADIO</h2>
 
     <?php
     if (is_page()) {

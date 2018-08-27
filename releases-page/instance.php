@@ -5,7 +5,7 @@
 <div class="content releases-page">
 
   <div class="section">
-    <h2>RELEASES</h2>
+    <h2 class="releases-color">RELEASES</h2>
 
     <?php
     if (is_page()) {

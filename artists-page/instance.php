@@ -4,7 +4,7 @@
 <div class="content artist-instance">
 
   <div class="section">
-    <h2>ARTISTS</h2>
+    <h2 class="artists-color">ARTISTS</h2>
 
     <?php if (is_single()) { ?>
       <?php the_post(); ?>

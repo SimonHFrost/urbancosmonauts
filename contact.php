@@ -5,7 +5,7 @@
 <div class="contact">
   <div class="content">
     <div class="contact-info">
-      <h2>Contact Us</h2>
+      <h2 class="contact-color">Contact Us</h2>
 
       <div class="contact-group">
         <h3>Urban Cosmonaut Radio</h3>
