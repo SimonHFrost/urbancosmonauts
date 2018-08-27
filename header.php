@@ -24,10 +24,10 @@
           <h1>URBAN COSMONAUT</h1>
           <nav>
             <ul>
-              <li><a href="./radio">Radio</a></li>
-              <li><a href="./releases">Releases</a></li>
-              <li><a href="./artists">Artists</a></li>
-              <li><a href="./contact">Contact Us</a></li>
+              <li><a class="radio-color-hover" href="./radio">Radio</a></li>
+              <li><a class="releases-color-hover" href="./releases">Releases</a></li>
+              <li><a class="artists-color-hover" href="./artists">Artists</a></li>
+              <li><a class="contact-color-hover" href="./contact">Contact Us</a></li>
             </ul>
           </nav>
         </div>

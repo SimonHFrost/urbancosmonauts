@@ -44,6 +44,29 @@ body {
   color: #87FF92;
 }
 
+.radio-color-hover,
+.releases-color-hover,
+.artists-color-hover,
+.contact-color-hover {
+  transition: color 0.1s;
+}
+
+.radio-color-hover:hover {
+  color: #D95956;
+}
+
+.releases-color-hover:hover {
+  color: #4A90E2;
+}
+
+.artists-color-hover:hover {
+  color: #F8FF6F;
+}
+
+.contact-color-hover:hover {
+  color: #87FF92;
+}
+
 .see-all-row {
   text-align: center;
 }
