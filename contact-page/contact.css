@@ -42,6 +42,7 @@
   margin-bottom: 12px;
   border-radius: 4px;
   border: 2px solid white;
+  box-sizing: border-box;
 }
 
 .contact input[type="submit"] {
@@ -49,5 +50,7 @@
   padding: 5px 0;
   border-radius: 5px;
   color: #87FF92;
-  border: #87FF92 1px solid;
+  border: #87FF92 2px solid;
+  margin-top: 6px;
+  height: inherit;
 }
