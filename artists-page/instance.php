@@ -1,7 +1,7 @@
 <?php /* Template Name: artists-page/index.php */ ?>
 
 <?php get_template_part( 'header-footer/head' ); ?>
-<?php get_template_part( 'header-footer/header' ); ?>
+<?php get_template_part( 'header-footer/minimal-header' ); ?>
 
 <div class="content artist-instance">
 
