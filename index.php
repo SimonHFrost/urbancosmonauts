@@ -1,4 +1,6 @@
+<?php get_template_part( 'header-footer/head' ); ?>
 <?php get_template_part( 'header-footer/header' ); ?>
+
 <div class="content">
 
   <div class="section">

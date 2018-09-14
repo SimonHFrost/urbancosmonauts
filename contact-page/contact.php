@@ -1,6 +1,8 @@
 <?php /* Template Name: contact-page/contact.php */ ?>
 
+<?php get_template_part( 'header-footer/head' ); ?>
 <?php get_template_part( 'header-footer/header' ); ?>
+
 
 <div class="contact">
   <div class="content">
