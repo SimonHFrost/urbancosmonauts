@@ -27,13 +27,8 @@
   font-family: 'UCR', sans-serif;
   font-size: 32px;
   text-transform: uppercase;
-}
-
-.artist-section-infos .artist-header {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  z-index: 100;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .artist-section-infos .section-info {

@@ -6,8 +6,8 @@
   ?>
 
       <div class="section-info-parent">
-        <h3 class="artist-header" style="color: <?php echo get_field('artist_header_color')?> "> <?php echo get_the_title() ?></h3>
         <a class="section-info" href="./radio/<?php echo $post_slug ?>" style="background-image: url(<?php echo get_field('featured_image')['url']; ?>)";></a>
+        <h3 class="artist-header" style="color: <?php echo get_field('artist_header_color')?> "> <?php echo get_the_title() ?></h3>
       </div>
 
   <?php endwhile;
