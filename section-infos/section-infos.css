@@ -10,6 +10,14 @@
   margin-bottom: 20px;
 }
 
+.section-infos .section-info-parent .section-details {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  pointer-events: none;
+}
+
 .section-infos .section-info-parent:nth-of-type(3n) {
   margin-right: 0;
 }
@@ -22,7 +30,21 @@
   color: white !important;
 }
 
+.section-infos .section-info-parent h4 {
+  margin: 0;
+}
+
+.section-infos .section-info-parent h4.title {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.section-infos .section-info-parent h4.date {
+  font-size: 12px;
+}
+
 .section-infos .artist-header {
+  pointer-events: none;
   position: relative;
   top: 50px;
   text-align: center;
@@ -37,7 +59,7 @@
   color: #EEE;
   display: inline-block;
   position: relative;
-  filter: grayscale(100%);
+  filter: grayscale(100%) brightness(60%);
   width: 200px;
   height: 200px;
   padding: 20px;
@@ -51,22 +73,4 @@
 
 .section-infos .section-info ul {
   list-style: none;
-}
-
-.section-infos .section-info h4 {
-  margin: 0;
-}
-
-.section-infos .section-details {
-  position: absolute;
-  bottom: 20px;
-}
-
-.section-infos .section-info h4.title {
-  font-size: 16px;
-  margin-bottom: 6px;
-}
-
-.section-infos .section-info h4.date {
-  font-size: 12px;
 }

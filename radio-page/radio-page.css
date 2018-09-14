@@ -31,13 +31,6 @@
   font-size: 12px;
 }
 
-.radio-page h4.artist-header {
-  pointer-events: none;
-  font-family: 'UCR', sans-serif;
-  font-size: 32px;
-  text-transform: uppercase;
-}
-
 .radio-page .soundcloud-player {
   position: absolute;
   bottom: 0px;
