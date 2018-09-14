@@ -23,9 +23,9 @@
 }
 
 .section-infos .artist-header {
-  position: absolute;
-  right: 10px;
-  top: 10px;
+  position: relative;
+  top: 50px;
+  text-align: center;
   z-index: 100;
   font-family: 'UCR', sans-serif;
   font-size: 32px;
