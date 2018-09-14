@@ -1,3 +1,4 @@
+<?php set_query_var( 'with_gradient', true ); ?>
 <?php get_template_part( 'header-footer/head' ); ?>
 <?php get_template_part( 'header-footer/header' ); ?>
 

@@ -13,5 +13,5 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/artists-page/artist-highlight-row.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/contact-page/contact.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="<?php if ($with_gradient) { echo 'with-gradient'; } ?>">
     <div class="container">

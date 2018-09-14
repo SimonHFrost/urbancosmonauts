@@ -1,4 +1,4 @@
-body {
+.with-gradient {
   /* Gradient background */
   background: -webkit-gradient(linear, left top, left bottom, from(#310058), color-stop(15.11%, #3506C7), color-stop(31.23%, #96701D), color-stop(47.52%, #53A0FD), color-stop(63.8%, #0C758D), color-stop(82.74%, #04765C), to(#B4EC51));
   background: -webkit-linear-gradient(top, #310058 0%, #3506C7 15.11%, #96701D 31.23%, #53A0FD 47.52%, #0C758D 63.8%, #04765C 82.74%, #B4EC51 100%);
