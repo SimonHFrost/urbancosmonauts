@@ -4,8 +4,8 @@
     <link rel="stylesheet" id="google-font-scada-css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" type="text/css" media="all">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/fonts/Urban_Cosmonaut-Regular.ttf" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
-    <link href="<?php echo get_bloginfo('template_directory'); ?>/header-footer/header.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/index.css" rel="stylesheet">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/header-footer/header.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/section-infos/section-infos.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/radio-page/radio-page.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/releases-page/releases-page.css" rel="stylesheet">
