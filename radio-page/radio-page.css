@@ -1,6 +1,12 @@
 .radio-page .highlight-row {
   display: flex;
   margin-bottom: 20px;
+
+}
+
+.radio-page .highlight-row .artist-header {
+  font-family: 'UCR', sans-serif;
+  font-size: 32px;
 }
 
 .radio-page .selected-track-image {
@@ -28,6 +34,7 @@
 }
 
 .radio-page h4.date {
+  color: gray;
   font-size: 12px;
 }
 
