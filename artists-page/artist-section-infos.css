@@ -1,17 +1,16 @@
 .artist-section-infos {
   margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: space-around;
+  justify-content: space-between;
 }
 
 /* So the header doesn't get greyscaled */
 .artist-section-infos .section-info-parent {
-  display: inline-block;
   position: relative;
-  margin-right: 45px;
+  width: 240px;
   margin-bottom: 20px;
-}
-
-.artist-section-infos .section-info-parent:nth-of-type(3n) {
-  margin-right: 0;
 }
 
 .artist-section-infos .section-info-parent h3 {

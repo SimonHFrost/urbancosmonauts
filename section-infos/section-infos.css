@@ -1,13 +1,15 @@
 .section-infos {
   margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-content: space-around;
+  justify-content: space-between;
 }
 
 /* So the header doesn't get greyscaled */
 .section-infos .section-info-parent {
-  display: inline-block;
   position: relative;
-  margin-right: 45px;
-  margin-bottom: 20px;
+  width: 240px;
 }
 
 .section-infos .section-info-parent .section-details {
@@ -16,10 +18,6 @@
   bottom: 20px;
   left: 20px;
   pointer-events: none;
-}
-
-.section-infos .section-info-parent:nth-of-type(3n) {
-  margin-right: 0;
 }
 
 .section-infos .section-info-parent h3 {
