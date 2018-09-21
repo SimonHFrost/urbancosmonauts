@@ -1,4 +1,4 @@
-<header>
+<header class="big-header">
   <a class="nav-image-link" href="<?php echo get_bloginfo( 'wpurl' );?>">
     <img class="nav-image" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo.png"/>
   </a>

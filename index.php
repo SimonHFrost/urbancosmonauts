@@ -2,7 +2,7 @@
 <?php get_template_part( 'header-footer/head' ); ?>
 <?php get_template_part( 'header-footer/header' ); ?>
 
-<div class="content">
+<div class="content with-big-header">
 
   <div class="section">
     <h2>RADIO</h2>
