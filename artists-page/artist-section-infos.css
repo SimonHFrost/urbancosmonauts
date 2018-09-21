@@ -35,7 +35,7 @@
   color: #EEE;
   display: inline-block;
   position: relative;
-  filter: grayscale(100%);
+  filter: grayscale(100%) brightness(60%);
   width: 200px;
   height: 200px;
   padding: 20px;
