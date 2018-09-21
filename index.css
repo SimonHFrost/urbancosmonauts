@@ -10,7 +10,7 @@
   background-color: black;
   color: gray;
   border-radius: 20px;
-  padding: 0 40px;
+  padding: 0 72px;
   margin-bottom: 60px;
 }
 
@@ -20,11 +20,10 @@
 
 .section h2 {
   font-family: 'Brandon-bold';
-  font-size: 96px;
   text-align: center;
   font-size: 60px;
   letter-spacing: 16px;
-  padding-top: 80px;
+  padding-top: 72px;
   margin-bottom: 30px;
 }
 
