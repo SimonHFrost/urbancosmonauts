@@ -61,6 +61,7 @@ label {
 .wpcf7-not-valid-tip,
 .screen-reader-response {
   color: #87FF92;
+  margin-bottom: 12px;
 }
 
 .screen-reader-response ul {
