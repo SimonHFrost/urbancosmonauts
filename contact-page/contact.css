@@ -58,15 +58,15 @@ label {
   display: block;
 }
 
-.wpcf7-not-valid-tip {
+.wpcf7-not-valid-tip,
+.screen-reader-response {
   color: #87FF92;
 }
 
-.screen-reader-response {
+.screen-reader-response ul {
   display: none;
 }
 
-.wpcf7-validation-errors {
+.wpcf7-validation-errors,{
   margin-top: 12px;
-  color: #87FF92;
 }
