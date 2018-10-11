@@ -18,7 +18,7 @@
 
       <div class="contact-group">
         <h3>+49 30 44 05 09 80</h3>
-        <h3>info@urbancosmonaut.com</h3>
+        <h3>booking@urbancosmonaut.com</h3>
       </div>
 
       <div class="contact-group">
