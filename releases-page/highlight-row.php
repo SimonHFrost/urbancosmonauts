@@ -14,6 +14,6 @@
       }
 
     ?>
-    <iframe class="soundcloud-player <? if (get_field('soundcloud_set_id')) { echo 'is-set' } ?>" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="<?php echo $SOUNDCLOUD_URL ?>"></iframe>
+    <iframe class="soundcloud-player <?php if (get_field('soundcloud_set_id')) { echo 'is-set' } ?>" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="<?php echo $SOUNDCLOUD_URL ?>"></iframe>
   </div>
 </div>
