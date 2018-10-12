@@ -46,6 +46,11 @@
   box-sizing: border-box;
 }
 
+.contact .contact-description {
+  color: white;
+  text-align: center;
+}
+
 .contact input[type="submit"] {
   cursor: pointer;
   padding: 5px 0;
