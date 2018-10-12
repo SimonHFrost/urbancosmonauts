@@ -10,7 +10,7 @@
       if (get_field('soundcloud_track_id')) {
         $SOUNDCLOUD_URL = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' . get_field('soundcloud_track_id') . '&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
       } else {
-        $SOUNDCLOUD_URL = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/359391749' . get_field('soundcloud_set_id') . '&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
+        $SOUNDCLOUD_URL = 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/' . get_field('soundcloud_set_id') . '&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true';
       }
 
     ?>
