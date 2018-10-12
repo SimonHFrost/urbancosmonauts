@@ -43,6 +43,11 @@
   width: 726px;
 }
 
+.releases-page .soundcloud-player.is-set {
+  position: static;
+  width: auto;
+}
+
 .releases-page .page-content p {
   display: block;
   color: #E3E3E3;
