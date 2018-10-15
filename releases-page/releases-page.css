@@ -45,7 +45,8 @@
 
 .releases-page .soundcloud-player.is-set {
   position: static;
-  width: auto;
+  width: 100%;
+  height: 300px;
 }
 
 .releases-page .page-content p {
