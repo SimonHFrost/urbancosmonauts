@@ -1,0 +1,13 @@
+.generic-page h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 20px; /* if changing, check impressum page */
+  text-decoration: underline;
+}
+
+.generic-page h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px; /* if changing, check impressum page */
+  text-decoration: underline;
+}
