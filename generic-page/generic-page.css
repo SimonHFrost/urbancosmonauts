@@ -16,3 +16,11 @@
   margin-top: 20px; /* if changing, check impressum page */
   text-decoration: underline;
 }
+
+.generic-page p {
+  margin-bottom: 15px;
+}
+
+.generic-page p:last-child {
+  margin-bottom: 0;
+}
