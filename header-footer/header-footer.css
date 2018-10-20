@@ -64,3 +64,18 @@ header.big-header {
 .content.with-big-header {
   margin-top: 189px;
 }
+
+/* Footer */
+
+footer  {
+  text-align: right;
+  margin: 24px auto;
+  width: 1010px;
+}
+
+footer a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
