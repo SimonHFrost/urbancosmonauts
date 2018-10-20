@@ -1,6 +1,7 @@
     </div>
-  <footer style="text-align: center; margin-bottom: 24px;">
-    <a href="./impressum" style="text-decoration: none; color: white; font-size: 24px;">Impressum</a>
+  <footer style="text-align: right; margin: 24px auto; width: 1010px;">
+    <a href="./impressum" style="text-decoration: none; color: white; font-size: 18px;">Impressum</a>
   </footer>
+  <?php wp_footer(); ?>
   </body>
 </html>

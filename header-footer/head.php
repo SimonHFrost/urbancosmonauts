@@ -15,4 +15,5 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/generic-page/generic-page.css" rel="stylesheet">
   </head>
   <body class="<?php if ($with_gradient) { echo 'with-gradient'; } ?>">
+    <?php wp_head(); ?>
     <div class="container">
