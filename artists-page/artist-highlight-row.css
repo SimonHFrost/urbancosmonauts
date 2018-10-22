@@ -52,7 +52,8 @@
 
 .artist-highlight-row .summary {
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 22px;
+  line-height: 28px;
   color: black;
   height: 300px;
   border-radius: 10px;
