@@ -1,5 +1,5 @@
 <div class="highlight-row">
-  <div class="selected-track-image" style="background-image: url(<?php echo get_field('featured_image')['url'] ?>); filter: grayscale(0%) !important;"></div>
+  <img class="selected-track-image" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo-with-frame.png" style="background-image: url(<?php echo get_field('featured_image')['url'] ?>); filter: grayscale(0%) !important;">
   <div class="selected-track-info">
     <h4 class="title"><?php echo get_the_title(); ?></h4>
     <h4 class="date"><?php echo get_the_date(); ?></h4>
