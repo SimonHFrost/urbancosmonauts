@@ -8,7 +8,7 @@
 
 .content {
   background-color: black;
-  color: gray;
+  color: #DDD;
   border-radius: 20px;
   padding: 0 72px;
   margin-bottom: 30px;
@@ -27,22 +27,6 @@
   margin-bottom: 30px;
 }
 
-.radio-color {
-  color: #D95956;
-}
-
-.releases-color {
-  color: #4A90E2;
-}
-
-.artists-color {
-  color: #F8FF6F;
-}
-
-.contact-color {
-  color: #87FF92;
-}
-
 .radio-color-hover,
 .releases-color-hover,
 .artists-color-hover,
@@ -51,19 +35,19 @@
 }
 
 .radio-color-hover:hover {
-  color: #D95956;
+  color: #AAA;
 }
 
 .releases-color-hover:hover {
-  color: #4A90E2;
+  color: #AAA;
 }
 
 .artists-color-hover:hover {
-  color: #F8FF6F;
+  color: #AAA;
 }
 
 .contact-color-hover:hover {
-  color: #87FF92;
+  color: #AAA;
 }
 
 .see-all-row {
@@ -75,9 +59,9 @@
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  color: #b6ff9b;
+  color: #BBB;
   background-color: black;
-  border: #b6ff9b solid 1px;
+  border: #BBB solid 1px;
   border-radius: 8px;
   width: 160px;
   height: 40px;
