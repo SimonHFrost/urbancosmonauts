@@ -22,6 +22,7 @@
 
 .generic-page p {
   margin-bottom: 15px;
+  line-height: 22px;
 }
 
 .generic-page p:last-child {
