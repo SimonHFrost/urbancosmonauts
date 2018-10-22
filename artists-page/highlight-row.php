@@ -4,6 +4,8 @@
     <div class="artist-image" style="background-image: url(<?php echo get_field('featured_image')['url'] ?>);"></div>
     <a href="<?php echo get_field('soundcloud_link') ?>"><img class="social-link" src="<?php echo get_bloginfo('template_directory'); ?>/images/soundcloud.png" /></a>
     <a href="<?php echo get_field('facebook_link') ?>"><img class="social-link" src="<?php echo get_bloginfo('template_directory'); ?>/images/facebook.png" /></a>
+    <a href="<?php echo get_field('resident_advisor_link') ?>"><img class="social-link" src="<?php echo get_bloginfo('template_directory'); ?>/images/residentadvisor.png" /></a>
+    <a href="<?php echo get_field('instagram_link') ?>"><img class="social-link" src="<?php echo get_bloginfo('template_directory'); ?>/images/instagram.png" /></a>
   </div>
   <div class="highlight-content">
     <div class="summary" style="background-color: <?php echo get_field('artist_header_color')?>;"><?php echo the_content() ?></div>
