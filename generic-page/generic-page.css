@@ -4,10 +4,13 @@
 }
 
 .generic-page h2 {
-  font-size: 50px;
-  margin-bottom: 40px;
-  margin-top: 20px; /* if changing, check impressum page */
-  text-decoration: underline;
+  font-family: 'Brandon-bold';
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 16px;
+  padding-top: 72px;
+  margin-bottom: 30px;
 }
 
 .generic-page h3 {
