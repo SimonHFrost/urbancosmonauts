@@ -19,7 +19,7 @@
 }
 
 .section h2 {
-  font-family: 'Brandon-bold';
+  font-family: 'Brandon-bold'; text-transform: uppercase;
   text-align: center;
   font-size: 60px;
   letter-spacing: 16px;

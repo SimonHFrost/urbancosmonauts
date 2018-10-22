@@ -13,10 +13,11 @@
 }
 
 .section-infos .section-info-parent .section-details {
+  width: 100%;
+  text-align: center;
   color: white;
   position: absolute;
   bottom: 20px;
-  left: 20px;
   pointer-events: none;
 }
 
@@ -44,10 +45,10 @@
 .section-infos .artist-header {
   pointer-events: none;
   position: relative;
-  top: 50px;
+  top: 136px;
   text-align: center;
   z-index: 100;
-  font-family: 'UCR', sans-serif;
+  font-family: 'Brandon-bold'; text-transform: uppercase;
   font-size: 32px;
   text-transform: uppercase;
 }
