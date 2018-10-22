@@ -25,7 +25,7 @@
   <div class="section">
     <h2>ARTISTS</h2>
     <h3 class="artists-sub-header">Interested in booking an artist? Select the artist you want to book, and complete the form</h3>
-    <?php $param_cat = 'artists'; $param_posts_per_page = 3; ?>
+    <?php $param_cat = 'artists'; $param_posts_per_page = 9; ?>
     <?php include( locate_template( 'artists-page/artist-section-infos.php', false, false ) ); ?>
     <div class="see-all-row">
       <a href="./artists" class="see-all">See all artists</a>
