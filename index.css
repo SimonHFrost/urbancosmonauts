@@ -18,6 +18,8 @@
   padding-bottom: 80px;
 }
 
+.contact h2,
+.contact-form h2,
 .section h2 {
   font-family: 'Brandon-bold'; text-transform: uppercase;
   text-align: center;

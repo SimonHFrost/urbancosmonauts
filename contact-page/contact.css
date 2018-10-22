@@ -12,13 +12,8 @@
   margin-bottom: 30px;
 }
 
-.contact h2 {
-  color: #87FF92;
-  font-size: 24px;
-  text-transform: uppercase;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 30px;
+.contact p {
+  line-height: 26px;
 }
 
 .contact h3 {
