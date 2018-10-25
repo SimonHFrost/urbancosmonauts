@@ -4,11 +4,6 @@
   margin-bottom: 40px;
 }
 
-.artist-highlight-row .highligh-info,
-.artist-highlight-row .highligh-content {
-  flex: 1;
-}
-
 .artist-highlight-row .artist-header {
   font-family: 'Brandon-bold'; text-transform: uppercase;
   font-size: 32px;
