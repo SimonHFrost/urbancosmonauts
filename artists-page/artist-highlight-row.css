@@ -1,19 +1,23 @@
+.artist-header {
+  font-family: 'Brandon-bold'; text-transform: uppercase;
+  font-size: 32px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
 .artist-highlight-row {
   display: flex;
   flex-direction: row;
   margin-bottom: 40px;
 }
 
-.artist-highlight-row .artist-header {
-  font-family: 'Brandon-bold'; text-transform: uppercase;
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 10px;
+.artist-highlight-row .highlight-info {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .artist-highlight-row .highlight-content {
   padding: 15px;
-  padding-top: 44px;
 }
 
 .artist-highlight-row .summary {

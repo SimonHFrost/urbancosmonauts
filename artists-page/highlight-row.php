@@ -1,6 +1,6 @@
+<h3 class="artist-header" style="color: <?php echo get_field('artist_header_color')?>" ><?php echo get_the_title() ?></h3>
 <div class="artist-highlight-row">
   <div class="highlight-info">
-    <h3 class="artist-header" style="color: <?php echo get_field('artist_header_color')?>" ><?php echo get_the_title() ?></h3>
     <div class="artist-image" style="background-image: url(<?php echo get_field('featured_image')['url'] ?>);"></div>
     <?php if (get_field('soundcloud_link')) { ?>
       <a href="<?php echo get_field('soundcloud_link') ?>"><img class="social-link" src="<?php echo get_bloginfo('template_directory'); ?>/images/soundcloud.png" /></a>
