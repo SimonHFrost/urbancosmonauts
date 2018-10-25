@@ -10,6 +10,7 @@
 .section-infos .section-info-parent {
   position: relative;
   width: 240px;
+  margin-bottom: 48px;
 }
 
 .section-infos .section-info-parent .section-details {
@@ -17,7 +18,7 @@
   text-align: center;
   color: white;
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   pointer-events: none;
 }
 
@@ -44,8 +45,12 @@
 
 .section-infos .artist-header {
   pointer-events: none;
-  position: relative;
-  top: 136px;
+  position: absolute;
+  top: 104px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   z-index: 100;
   font-family: 'Brandon-bold'; text-transform: uppercase;
