@@ -1,9 +1,36 @@
 .with-gradient {
-  /* Gradient background */
-  background: -webkit-gradient(linear, left top, left bottom, from(#310058), color-stop(15.11%, #3506C7), color-stop(31.23%, #96701D), color-stop(47.52%, #53A0FD), color-stop(63.8%, #0C758D), color-stop(82.74%, #04765C), to(#B4EC51));
-  background: -webkit-linear-gradient(top, #310058 0%, #3506C7 15.11%, #96701D 31.23%, #53A0FD 47.52%, #0C758D 63.8%, #04765C 82.74%, #B4EC51 100%);
-  background: -o-linear-gradient(top, #310058 0%, #3506C7 15.11%, #96701D 31.23%, #53A0FD 47.52%, #0C758D 63.8%, #04765C 82.74%, #B4EC51 100%);
-  background: linear-gradient(to bottom, #310058 0%, #3506C7 15.11%, #96701D 31.23%, #53A0FD 47.52%, #0C758D 63.8%, #04765C 82.74%, #B4EC51 100%);
+  /* Gradient background, make browser safe */
+  background: linear-gradient(to bottom, #310058 0%, #B4EC51 100%);
+}
+
+.background-gradient {
+  position: absolute;
+  top: -1000px !important;
+  left: -1000px !important;
+  background-image: url("images/stars.gif"), linear-gradient(to bottom, #310058 0%, #B4EC51 100%);
+  width: 1000%;
+  height: 600%;
+  z-index: -5;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-0.5px);
 }
 
 .content {
