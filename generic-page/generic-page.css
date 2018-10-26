@@ -13,13 +13,6 @@
   margin-bottom: 30px;
 }
 
-.generic-page h3 {
-  font-size: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px; /* if changing, check impressum page */
-  text-decoration: underline;
-}
-
 .generic-page p {
   margin-bottom: 15px;
   line-height: 22px;
@@ -27,4 +20,14 @@
 
 .generic-page p:last-child {
   margin-bottom: 0;
+}
+
+.generic-page .display-inline {
+  text-align: center;
+  margin: auto;
+}
+
+.generic-page .display-inline * {
+  margin-right: 10px;
+  margin-left: 10px;
 }
