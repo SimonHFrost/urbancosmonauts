@@ -13,11 +13,12 @@
 
 .artist-highlight-row .highlight-info {
   padding-bottom: 15px;
-  padding-top: 15px;
+  padding-top: 0;
 }
 
 .artist-highlight-row .highlight-content {
   padding: 15px;
+  padding-top: 0;
 }
 
 .artist-highlight-row .summary {
