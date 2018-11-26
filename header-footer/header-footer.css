@@ -4,6 +4,11 @@
   vertical-align: top;
 }
 
+<body class="<?php if ($with_gradient) { echo 'with-gradient'; } ?>">
+<body>
+  <?php wp_head(); ?>
+  <div class="container">
+
 header {
   margin-top: 32px;
   padding-bottom: 40px;

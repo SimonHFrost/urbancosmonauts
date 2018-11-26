@@ -14,8 +14,8 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/contact-page/contact.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/generic-page/generic-page.css" rel="stylesheet">
   </head>
+
+  <body class="<?php if ($with_gradient) { echo 'with-gradient'; } ?>">
   <body>
     <?php wp_head(); ?>
-    <div class="parallax">
-      <div class="background-gradient parallax__layer parallax__layer--back"></div>
-      <div class="container parallax__layer parallax__layer--base">
+    <div class="container">
