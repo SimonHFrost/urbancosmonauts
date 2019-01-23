@@ -1,6 +1,6 @@
 .radio-page .highlight-row {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .radio-page .highlight-row .artist-header {
@@ -41,17 +41,6 @@
   bottom: 0px;
   left: -160px;
   width: 726px;
-}
-
-.radio-page .page-content {
-  margin-bottom: 80px;
-}
-
-.radio-page .page-content p {
-  display: block;
-  color: #E3E3E3;
-  margin-bottom: 24px;
-  line-height: 22px;
 }
 
 .radio-page summary {
