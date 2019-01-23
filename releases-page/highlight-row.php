@@ -1,10 +1,11 @@
 <div class="highlight-row">
   <div class="selected-track-image <?php if (get_field('soundcloud_set_id')) { echo 'display-none'; } ?>" style="background-image: url(<?php echo get_field('featured_image')['url'] ?>); filter: grayscale(0%) !important;"></div>
   <div class="selected-track-info">
-    <div class="<?php if (get_field('soundcloud_set_id')) { echo 'display-none'; } ?>">
-      <h4 class="title"><?php echo get_the_title(); ?></h4>
+
+    <div class="release-info">
+      <img class="selected-track-image" style="background-image: url(<?php echo get_field('featured_image')['url'] ?>); filter: grayscale(0%) !important;">
+      <h4 class="title-header" style="color: <?php echo get_field('artist_header_color') ?>"><?php echo get_the_title(); ?></h4>
       <h4 class="date"><?php echo get_the_date(); ?></h4>
-      <h4 class="artist-header" style="color: <?php echo get_field('artist_header_color') ?>"><?php echo get_field('artist_name') ?></h4>
     </div>
 
     <?php

@@ -3,7 +3,7 @@
   margin-bottom: 20px;
 }
 
-.releases-page .highlight-row .artist-header {
+.releases-page .highlight-row .title-header {
   font-family: 'Brandon-bold'; text-transform: uppercase;
   font-size: 32px;
 }
@@ -23,6 +23,16 @@
   padding-top: 34px;
 }
 
+.releases-page .release-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.releases-page .release-info * {
+  margin-bottom: 16px;
+}
+
 .releases-page h4 {
   color: white;
   margin-bottom: 10px;
@@ -33,7 +43,8 @@
 }
 
 .releases-page h4.date {
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .releases-page .soundcloud-player {
