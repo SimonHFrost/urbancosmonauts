@@ -60,6 +60,10 @@
   height: 300px;
 }
 
+.releases-page .page-content {
+  margin-bottom: 80px;
+}
+
 .releases-page .page-content p {
   display: block;
   color: #E3E3E3;
