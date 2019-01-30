@@ -34,7 +34,7 @@
     </div>
     <?php } ?>
 
-    <?php $param_cat = 'releases'; $param_posts_per_page = 100; ?>
+    <?php $param_cat = 'release'; $param_posts_per_page = 100; ?>
     <?php include( locate_template( 'section-infos/section-infos.php', false, false ) ); ?>
   </div>
 
