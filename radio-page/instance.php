@@ -12,7 +12,7 @@
     <?php
     if (is_page()) {
       // Load first post if loading the index page
-      $latest_post = get_posts("category_name=podcast&numberposts=1");
+      $latest_post = get_posts("category_name=Podcast&numberposts=1");
       $ID = $latest_post[0]->ID;
 
       global $post;
