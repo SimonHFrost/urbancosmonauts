@@ -32,7 +32,7 @@ body {
 
 .container {
   margin: auto;
-  width: 1010px;
+  max-width: 1010px;
 }
 
 h1 {

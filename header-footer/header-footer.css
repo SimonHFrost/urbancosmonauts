@@ -66,6 +66,12 @@ header.big-header {
   margin-top: 189px;
 }
 
+@media screen and (max-width: 600px) {
+  header.big-header {
+    position: static;
+  }
+}
+
 /* Footer */
 
 footer  {
