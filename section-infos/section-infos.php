@@ -8,7 +8,11 @@
   ?>
 
       <div class="section-info-parent">
-        <h3 class="artist-header" style="color: <?php echo get_field('artist_header_color')?> "> <?php echo get_field('artist_name') ?></h3>
+        <h3 class="artist-header" 
+          style="color: <?php echo get_field('artist_header_color')?>; font-size: <?php echo get_field('artist_name_font_size') ?>"
+        > 
+          <?php echo get_field('artist_name') ?>
+        </h3>
 
         <a class="section-info" href="<?php echo the_permalink() ?>" style="background-image: url(<?php echo get_field('featured_image')['url']; ?>)";>
         </a>
