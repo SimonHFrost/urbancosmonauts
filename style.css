@@ -35,6 +35,16 @@ body {
   max-width: 1010px;
 }
 
+@media (max-width: 600px) {
+  /* body {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  } */
+}
+
 h1 {
   font-family: 'UCR', sans-serif;
   letter-spacing: 3px;

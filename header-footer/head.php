@@ -12,7 +12,7 @@
     <link href="<?php echo get_bloginfo('template_directory'); ?>/artists-page/artist-section-infos.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/artists-page/artist-highlight-row.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/generic-page/generic-page.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
   </head>
 
   <body class="<?php if ($with_gradient) { echo 'with-gradient'; } ?>">
