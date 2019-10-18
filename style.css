@@ -35,6 +35,12 @@ body {
   width: 1010px;
 }
 
+@media (max-width: 600px) {
+  .container {
+    width: inherit;
+  }
+}
+
 h1 {
   font-family: 'UCR', sans-serif;
   letter-spacing: 3px;

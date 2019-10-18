@@ -48,6 +48,12 @@ nav li {
   font-size: 24px;
 }
 
+@media (max-width: 600px) {
+ nav li {
+   display: block;
+ } 
+}
+
 nav li a {
   color: white;
   text-decoration: none;
@@ -66,12 +72,18 @@ header.big-header {
   margin-top: 189px;
 }
 
+@media (max-width: 600px) {
+  .content.with-big-header {
+    text-align: center;
+    margin-top: 500px;
+  }
+}
+
 /* Footer */
 
 footer  {
   text-align: right;
   margin: 24px auto;
-  width: 1010px;
 }
 
 footer a {

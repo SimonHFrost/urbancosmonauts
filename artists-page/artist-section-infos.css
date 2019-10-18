@@ -6,6 +6,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 600px) {
+  .artist-section-infos {
+    grid-template-columns: auto;
+  }
+}
+
 /* So the header doesn't get greyscaled */
 .artist-section-infos .section-info-parent {
   position: relative;

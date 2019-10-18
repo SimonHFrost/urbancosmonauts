@@ -31,6 +31,13 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 600px) {
+  .section h2 {
+    font-size: 40px;
+    letter-spacing: 8px;
+  }
+}
+
 .radio-color-hover,
 .releases-color-hover,
 .artists-color-hover,
