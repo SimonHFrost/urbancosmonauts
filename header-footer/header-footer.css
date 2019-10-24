@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 600px) {
+  .nav-content {
+    width: 100%;
+  }
+
   .nav-content h1 {
     display: none;
   }
@@ -13,6 +17,13 @@
 header {
   margin-top: 32px;
   padding-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  header {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
 }
 
 header h1 {
@@ -32,6 +43,10 @@ header .nav-image {
     margin-right: 0;
     margin-bottom: 24px;
   }
+
+  .big-header .nav-image {
+    margin-top: 32px;
+  }
 }
 
 header .nav-image-small {
@@ -41,11 +56,23 @@ header .nav-image-small {
   margin-right: 40px;
 }
 
+@media (max-width: 600px) {
+  header .nav-image-small {
+    margin-right: 0;
+  }
+}
+
 header .inline-nav {
   display: inline-block;
   position: relative;
   bottom: 30px;
 }
+
+@media (max-width: 600px) {
+  header .inline-nav {
+    bottom: 0;
+  }
+} 
 
 header .nav-image-link {
   text-decoration: none;
@@ -53,6 +80,14 @@ header .nav-image-link {
 
 nav {
   display: inline-block;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 nav li {
