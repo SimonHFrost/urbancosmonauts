@@ -60,6 +60,12 @@
   margin-bottom: 40px;
 }
 
+@media (max-width: 600px) {
+  .radio-page details {
+    padding: 24px;
+  }
+}
+
 .radio-page .page-content p {
   display: block;
   color: #E3E3E3;

@@ -64,6 +64,12 @@
   margin-bottom: 40px;
 }
 
+@media (max-width: 600px) {
+  .releases-page details {
+    padding: 24px;
+  }
+}
+
 .releases-page .page-content p {
   display: block;
   color: #E3E3E3;
