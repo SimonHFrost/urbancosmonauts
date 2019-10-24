@@ -4,6 +4,12 @@
   vertical-align: top;
 }
 
+@media (max-width: 600px) {
+  .nav-content h1 {
+    display: none;
+  }
+}
+
 header {
   margin-top: 32px;
   padding-bottom: 40px;
@@ -19,6 +25,13 @@ header .nav-image {
   width: 118px;
   height: 116px;
   margin-right: 40px;
+}
+
+@media (max-width: 600px) {
+  header .nav-image {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
 }
 
 header .nav-image-small {
@@ -51,6 +64,8 @@ nav li {
 @media (max-width: 600px) {
  nav li {
    display: block;
+   margin-right: 0;
+   margin-bottom: 16px;
  } 
 }
 
@@ -68,6 +83,16 @@ header.big-header {
   z-index: -1;
 }
 
+@media (max-width: 600px) {
+  header.big-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+}
+
 .content.with-big-header {
   margin-top: 189px;
 }
@@ -75,7 +100,7 @@ header.big-header {
 @media (max-width: 600px) {
   .content.with-big-header {
     text-align: center;
-    margin-top: 500px;
+    margin-top: 300px;
   }
 }
 
