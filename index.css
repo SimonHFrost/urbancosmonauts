@@ -16,6 +16,12 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 600px) {
+  .content {
+    padding: 0;
+  }
+}
+
 .content:last-of-type {
   padding-bottom: 80px;
 }
@@ -32,6 +38,12 @@
 }
 
 @media (max-width: 600px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .section h2 {
     font-size: 40px;
     letter-spacing: 8px;

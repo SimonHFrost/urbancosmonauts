@@ -4,3 +4,9 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+@media (max-width: 600px) {
+  .artists-sub-header {
+    display: none;
+  }
+}
