@@ -3,6 +3,13 @@
   text-align: left;
 }
 
+@media (max-width: 600px) {
+  .generic-page,
+  .generic-page h4 {
+    text-align: center !important;
+  }
+}
+
 .generic-page h2,
 .generic-page h4 {
   font-family: 'Brandon-bold';
