@@ -144,7 +144,7 @@ header.big-header {
 @media (max-width: 600px) {
   .content.with-big-header {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 350px;
   }
 }
 
