@@ -67,6 +67,7 @@ header .nav-image-small {
 @media (max-width: 600px) {
   header .nav-image-small {
     margin-right: 0;
+    margin-bottom: 32px;
   }
 }
 
