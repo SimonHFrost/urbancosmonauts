@@ -1,5 +1,5 @@
 <header>
-  <div class="nav-content" style="margin-left: 72px;">
+  <div class="nav-content minimal-nav-content">
     <nav>
       <a class="nav-image-link" href="<?php echo get_bloginfo( 'wpurl' );?>">
         <img class="nav-image-small" src="<?php echo get_bloginfo('template_directory'); ?>/images/logo.png"/>

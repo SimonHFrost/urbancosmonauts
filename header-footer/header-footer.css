@@ -4,6 +4,10 @@
   vertical-align: top;
 }
 
+.minimal-nav-content {
+  margin-left: 72px;
+}
+
 @media (max-width: 600px) {
   .nav-content {
     width: 100%;
@@ -11,6 +15,10 @@
 
   .nav-content h1 {
     display: none;
+  }
+
+  .minimal-nav-content {
+    margin-left: 0;
   }
 }
 
