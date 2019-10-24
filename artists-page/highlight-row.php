@@ -17,6 +17,6 @@
   </div>
   <div class="highlight-content">
     <div class="summary" style="background-color: <?php echo get_field('artist_header_color')?>;"><?php echo the_content() ?></div>
-    <a href="./contact?artists=<?php echo get_the_title()?>" class="book-button" style="color: <?php echo get_field('artist_header_color')?>; border-color:<?php echo get_field('artist_header_color')?>">Booking request</a>
+    <a href="./contact?artists=<?php echo get_the_title()?>" class="book-button desktop-only" style="color: <?php echo get_field('artist_header_color')?>; border-color:<?php echo get_field('artist_header_color')?>">Booking request</a>
   </div>
 </div>
